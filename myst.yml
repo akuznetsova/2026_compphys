@@ -2,23 +2,18 @@
 version: 1
 project:
   id: 7204695b-7485-4989-863c-16cf6e4db155
-  title: Jupyter Book 2 Workshop Template
-  description: This description goes in the preface of the pdf output. 
+  title: PHYS 5350
+  description: UConn Physics: Computational Physics 
   # keywords: []
   authors:
-    - name: Freek Pols
-    - name: Luuk Fröling
-    - name: Robert Lanzafame
-    - name: Kirstie Whitaker
-    - name: Jim Madge
-  license:
+    - name: Aleksandra Kuznetsova
     content: CC-BY-4.0
   references:
     myst-guide: https://mystmd.org/guide
     jupyter: https://docs.jupyter.org/en/latest
 
-  date: 2025-11-02 # ${BUILD_DATE} 
-  github: https://github.com/jupyter-book/workshop-template # Change this URL to your GitHub repository
+  date: ${BUILD_DATE} 
+  github: https://github.com/akuznetsova/2026_compphys 
   edit_url: 
   
   plugins:
