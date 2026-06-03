@@ -2,7 +2,7 @@
 title: main site
 site:
   hide_outline: true
-  hide_toc: true
+  hide_toc: false
   hide_title_block: true
   
 no-update-date: true
