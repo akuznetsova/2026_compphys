@@ -15,7 +15,7 @@ no-update-date: true
 
 </div>
 
-```{figure} content/figures/logo.svg
+```{figure} content/figures/blank.svg
 :width: 80%
 :align: center
 ```
