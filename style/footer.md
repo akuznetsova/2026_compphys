@@ -7,15 +7,9 @@ no-update-date: true
 
 ::::{div}
 
-# Made available by:
+# PHYS 5350
 
-```{image} https://jupyterbook.org/en/stable/_images/logo-square.svg
-:width: 50px
-:align: left
-:url: https://jupyterbook.org/
-```
 
-Go make your own Jupyter Book!
 ::::
 
 <!-- Spacer between project description and links columns -->
@@ -45,7 +39,7 @@ Go make your own Jupyter Book!
 
 :::{div}
 
-This workshop may be used by anyone, for any purpose, under the terms of the CC-BY-4.0 license. Please credit the authors if you use this material, and share any improvements you make!
+Made with Jupyter Book, under the terms of the CC-BY-4.0 license. 
 :::
 
 ::::
