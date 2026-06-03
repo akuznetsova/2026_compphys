@@ -3,11 +3,10 @@ version: 1
 project:
   id: 7204695b-7485-4989-863c-16cf6e4db155
   title: PHYS 5350
-  description: UConn Physics: Computational Physics 
+  description: UConn Physics - Computational Physics 
   # keywords: []
   authors:
     - name: Aleksandra Kuznetsova
-    content: CC-BY-4.0
   references:
     myst-guide: https://mystmd.org/guide
     jupyter: https://docs.jupyter.org/en/latest
