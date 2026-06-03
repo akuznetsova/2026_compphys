@@ -23,5 +23,5 @@ no-update-date: true
 _A GitHub repository for Computational Physics._
 
 <div style="text-align: center", font-size: 1.2em>
-Dr. Aleksandra Kuznetsova
+Fall 2026
 </div>
