@@ -3,7 +3,8 @@ numbering:
   title:
     offset: 0
 ---
-(python intro)=
+
+(python_intro)=
 # Python Intro
 
 ## Why Python?
