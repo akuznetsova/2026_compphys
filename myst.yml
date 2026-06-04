@@ -43,43 +43,43 @@ project:
       children:
         - file: content/lessons/2_tools.md
         - file: content/lessons/2_visualization.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children:
         - file: content/lessons/3_accuracy.md
         - file: content/lessons/3_integration.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children:
         - file: content/lessons/4_integration.md
         - file: content/lessons/4_differentiation.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children:
         - file: content/lessons/5_eqsystems.md
         - file: content/lessons/5_nonlinear.md 
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children:
         - file: content/lessons/6a_ODEs.md
         - file: content/lessons/6b_ODEs.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children: 
         - file: content/lessons/7a_ODEs.md
         - file: content/lessons/7b_ODES.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children: 
         - file: content/lessons/8a_PDEs.md
         - file: content/lessons/8b_PDES.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children: 
         - file: content/lessons/9a_PDEs.md
         - file: content/lessons/9b_PDES.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children: 
         - file: content/lessons/10a_FT.md
         - file: content/lessons/10b_FT.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children: 
         - file: content/lessons/11a_MC.md
         - file: content/lessons/11b_MC.md
-    - file: content/lessons/blank.md
+    - file: content/blank.md
       children: 
         - file: content/lessons/12a_MC.md
         - file: content/lessons/12b_MC.md
