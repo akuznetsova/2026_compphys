@@ -7,8 +7,6 @@ For a complete set of deadlines and policies please refer to the course syllabus
 ```
 You can find each week's materials: lectures, assigned readings, in-class exercises, and problem sets on the sidebar's drop-down list below.  
 
-## Table of Contents
-
 :::{table} Course Schedule
 :label: schedule
 :align: center
