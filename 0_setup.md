@@ -1,0 +1,21 @@
+---
+numbering:
+  title: Week 1 
+    offset: 0
+---
+
+## This week:
+
+This is a blank page, the week's lectures are not up yet.
+
+### Readings (Newman):
+
+- Ch. 
+- Ch. 
+
+`````{tip}
+You can grab this week's in-class exercises here: 
+`````
+
+### Reminders 
+

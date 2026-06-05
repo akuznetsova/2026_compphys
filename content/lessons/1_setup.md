@@ -1,6 +1,6 @@
 ---
 numbering:
-  title:
+  title: Week 1 
     offset: 0
 ---
 
