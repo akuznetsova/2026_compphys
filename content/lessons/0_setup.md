@@ -1,9 +1,9 @@
 ---
 numbering:
-  title: Week 1 
+  title:  
     offset: 0
 ---
-
+# Course Overview 
 ## This week:
 
 This is a blank page, the week's lectures are not up yet.
