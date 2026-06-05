@@ -6,6 +6,10 @@ _videos
 **.mp4
 **.pptx
 
+content/in-class/_*.ipynb
+content/psets/_*
+content/lessons/_*
+
 # The contents below are from the initial commit of choldgraf when setting up repo
 
 # Byte-compiled / optimized / DLL files
