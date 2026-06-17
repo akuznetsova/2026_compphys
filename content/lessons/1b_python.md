@@ -1,9 +1,3 @@
----
-numbering:
-  title:
-    offset: 0
----
-
 (python_intro)=
 # Python Intro
 
