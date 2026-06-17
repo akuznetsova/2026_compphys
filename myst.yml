@@ -37,55 +37,55 @@ project:
     - file: content/2_cheat_sheet.md
     - file: content/3_schedule.md
       children:
-        - file: content/lessons/0_setup.md          # dropdown menu
+        - file: content/lessons/1_setup.md          # dropdown menu
           children:
             - file: content/lessons/1a_intro.md
-            - file: content/lessons/1b_python.md
-            - file: content/in-class/1_pythonintro.ipynb
-        - file: content/lessons/0_setup.md
-          children:
-            - file: content/lessons/2_tools.md
-            - file: content/lessons/2_visualization.md
-        - file: content/lessons/0_setup.md
-          children:
-            - file: content/lessons/3_accuracy.md
-            - file: content/lessons/3_integration.md
-        - file: content/lessons/0_setup.md
-          children:
-            - file: content/lessons/4_integration.md
-            - file: content/lessons/4_differentiation.md
-        - file: content/lessons/0_setup.md
-          children:
-            - file: content/lessons/5_eqsystems.md
-            - file: content/lessons/5_nonlinear.md 
-        - file: content/lessons/0_setup.md
-          children:
-            - file: content/lessons/6a_ODEs.md
-            - file: content/lessons/6b_ODEs.md
-        - file: content/lessons/0_setup.md
-          children: 
-            - file: content/lessons/7a_ODEs.md
-            - file: content/lessons/7b_ODES.md
-        - file: content/lessons/0_setup.md
-          children: 
-            - file: content/lessons/8a_PDEs.md
-            - file: content/lessons/8b_PDES.md
-        - file: content/lessons/0_setup.md
-          children: 
-            - file: content/lessons/9a_PDEs.md
-            - file: content/lessons/9b_PDES.md
-        - file: content/lessons/0_setup.md
-          children: 
-            - file: content/lessons/10a_FT.md
-            - file: content/lessons/10b_FT.md
-        - file: content/lessons/0_setup.md
-          children: 
-            - file: content/lessons/11a_MC.md
-            - file: content/lessons/11b_MC.md
-        - file: content/lessons/0_setup.md
-          children: 
-            - file: content/lessons/12a_MC.md
-            - file: content/lessons/12b_MC.md
+            - file: content/in-class/1b_pythonintro.ipynb
+            - file: content/in-class/1b_exercises.ipynb
+        #- file: content/lessons/0_setup.md
+        #  children:
+        #    - file: content/lessons/2_tools.md
+        #    - file: content/lessons/2_visualization.md
+        #- file: content/lessons/0_setup.md
+        #  children:
+        #    - file: content/lessons/3_accuracy.md
+        #    - file: content/lessons/3_integration.md
+        #- file: content/lessons/0_setup.md
+        #  children:
+        #    - file: content/lessons/4_integration.md
+        #    - file: content/lessons/4_differentiation.md
+        #- file: content/lessons/0_setup.md
+        #  children:
+        #    - file: content/lessons/5_eqsystems.md
+        #    - file: content/lessons/5_nonlinear.md 
+        #- file: content/lessons/0_setup.md
+        #  children:
+        #    - file: content/lessons/6a_ODEs.md
+        #    - file: content/lessons/6b_ODEs.md
+        #- file: content/lessons/0_setup.md
+        #  children: 
+        #    - file: content/lessons/7a_ODEs.md
+        #    - file: content/lessons/7b_ODES.md
+        #- file: content/lessons/0_setup.md
+        #  children: 
+        #    - file: content/lessons/8a_PDEs.md
+        #    - file: content/lessons/8b_PDES.md
+        #- file: content/lessons/0_setup.md
+        #  children: 
+        #    - file: content/lessons/9a_PDEs.md
+        #    - file: content/lessons/9b_PDES.md
+        #- file: content/lessons/0_setup.md
+        #  children: 
+        #    - file: content/lessons/10a_FT.md
+        #    - file: content/lessons/10b_FT.md
+        #- file: content/lessons/0_setup.md
+        #  children: 
+        #    - file: content/lessons/11a_MC.md
+        #    - file: content/lessons/11b_MC.md
+        #- file: content/lessons/0_setup.md
+        #  children: 
+        #    - file: content/lessons/12a_MC.md
+        #    - file: content/lessons/12b_MC.md
   abbreviations:
     JB2: Jupyter Book 2
     CI/CD: Continuous Integration/Continuous Deployment

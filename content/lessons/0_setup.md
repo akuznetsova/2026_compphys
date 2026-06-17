@@ -1,8 +1,3 @@
----
-numbering:
-  title:  
-    offset: 0
----
 # Course Overview 
 ## This week:
 
