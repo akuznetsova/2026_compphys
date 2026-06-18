@@ -44,7 +44,7 @@ project:
             - file: content/in-class/1b_exercises.ipynb
     - file: content/4_psets.md
       children: 
-         - file: content/psets/ps1.md 
+        - file: content/psets/ps1.md 
         #- file: content/lessons/0_setup.md
         #  children:
         #    - file: content/lessons/2_tools.md
