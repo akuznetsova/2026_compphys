@@ -38,4 +38,4 @@ Each individual problem can receive a score of $\checkmark+$ (satisfactory), $\c
 
 This scheme is relatively coarse and can appear to be an unfairly high standard for full credit. In practice, it is the code that "looks" correct that can result in enormous errors. Testing and debugging is the primary activity of programming! The revision system is in place to award you credit for debugging and learning from mistakes. 
 
-Remember: the goal is not that you never make mistakes while coding (it is inevitable), the goal is to learn how to recognize and catch mistakes early and often. 
+Remember: the goal is not that you never make mistakes while coding (that is simply inevitable), the goal is to learn how to recognize and catch mistakes early and often. 
