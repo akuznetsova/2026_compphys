@@ -3,4 +3,4 @@ n = 0
 
 # your code here
 
-print("n for C=1e9:",n)
+print("n for C<=1e9:",n)

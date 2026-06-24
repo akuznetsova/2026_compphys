@@ -1,4 +1,4 @@
-(problem sets)=
+(problem-sets)=
 # Problem-Sets 
 
 ## Working through a typical assignment
@@ -12,7 +12,7 @@
 
 5. Submit your code on the HuskyCT assignment page, uploading all the python scripts for all the questions on that problem set at once.
 
-6. After submission, you will get access to a file with the correct *outputs* for each problem that you can use to cross-reference your solution. If at this stage, you wish to revise your code, you will have one week to resubmit any individual problems for a potential increase in grade. Resubmissions should be entered on the "revision" assignment page on HuskyCT.
+6. After submission, you will get access to a file with the correct *outputs* for each problem that you can use to cross-reference your solution. If at this stage, you wish to revise your code, you will have unitl the revise and resubmit deadline for the problemset to resubmit any individual problems for a potential increase in grade. Resubmissions should be entered on the "revision" assignment page on HuskyCT.
 
 7. You will receive a brief feedback report on HuskyCT with the scores for each individual problem on your original submission and any revisions. 
 

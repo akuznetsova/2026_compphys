@@ -1,14 +1,14 @@
-# Week 1
+# Week 2
 
-+ Tues: Course Overview
-+ Thurs: Brief Python Tour
++ Tues: Python Visualization
++ Thurs: Talking to the Computer
 
 ## Readings
-### This week: Introduction
-- Course website notes
-- Newman Ch. 2 (by Thurs.)
-### Next week: Visualization
-- Newman Ch. 3
+### This week: Visualization and tools
+- Newman Ch. 3 
+### Next week: Accuracy
+- Newman Ch. 4
+- Newman Ch. 5
 
 
 `````{tip}

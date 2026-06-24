@@ -1,5 +1,5 @@
 # Problem Set 1 Parameters
-Due: 11:59 PM Monday September 15th on HuskyCT
+Due: 11:59 PM Wednesday September 9th on HuskyCT
 
 ## 1.1 The Madelung Constant
 ```{literalinclude} ps1_1.py
