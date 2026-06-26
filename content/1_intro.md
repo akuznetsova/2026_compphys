@@ -4,6 +4,11 @@ This is the course website for PHYS 5350 taught at UConn for the Fall of 2026.
 
 ## How to use this website
 This website has been compiled as Jupyter book from a github repository of interactive notebooks, markdown notes, and python scripts.
+```{note}
+The website is re-built each time an update is pushed to the github repository. 
+
+If something is missing that you were expecting to see, try reloading the page. If that doesn't work, please let me know.
+```
 Please see the course syllabus for a more comprehensive description of the course policies, deadlines, and assignments. 
 In general, the course content for every week will be updated as the semester progresses.   
 You will be able to see what we cover in class by navigating to the "Course Schedule" on the sidebar and selecting the relevant week. Each week will include the lecture content to follow along with, the in-class exercises to turn in every week, and the guidelines and skeleton code provided for the problem sets under "Problem Sets".
