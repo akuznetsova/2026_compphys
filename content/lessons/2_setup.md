@@ -1,7 +1,7 @@
 # Week 2
 
-+ Tues: Python Visualization
-+ Thurs: Talking to the Computer
++ T (09-08): [Visualization with Matplotlib](./2a_matplotlib.ipynb)
++ R (09-10): Talking to the Computer
 
 ## Readings
 ### This week: Visualization and tools
@@ -12,8 +12,8 @@
 
 
 `````{tip}
-You can grab a template for this week's in-class exercises [here](https://akuznetsova.github.io/2026_compphys/b-exercises/)
+Download the module [here](../in-class/gendata.py) and in-class exercises template [here](../in-class/2a_exercises.ipynb)
 `````
 
 ## Reminders 
-Problem Set 1 will be due on Wednesday September 9th at noon. 
+Problem Set 1 is due this Wednesday September 9th at noon. 
