@@ -46,6 +46,7 @@ project:
           children:
             - file: content/lessons/2a_matplotlib.ipynb
             - file: content/in-class/2a_exercises.ipynb
+            - file: content/lessons/2b_computer.md
     - file: content/4_psets.md
       children: 
         - file: content/psets/ps1.md 
