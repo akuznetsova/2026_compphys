@@ -1,7 +1,7 @@
 # Week 2
 
 + T (09-08): [Visualization with Matplotlib](./2a_matplotlib.ipynb)
-+ R (09-10): Talking to the Computer
++ R (09-10): [Talking to the Computer](./2b_computer.md)
 
 ## Readings
 ### This week: Visualization and tools
@@ -16,4 +16,5 @@ Download the module [here](../in-class/gendata.py) and in-class exercises templa
 `````
 
 ## Reminders 
-Problem Set 1 is due this Wednesday September 9th at noon. 
+Problem Set 1 is due **this Wednesday September 9th** by 11:59 PM. 
+Problem Set 2 is due next Wednesday September 16th.

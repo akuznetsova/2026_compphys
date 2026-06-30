@@ -1,5 +1,5 @@
 (problem-sets)=
-# Problem-Sets 
+# Problem Sets 
 
 ## Working through a typical assignment
 1. Read the assignment itself, each problem set is posted as a pdf on HuskyCT. Most problem sets describe the problems and discuss what kind of code you should write. 

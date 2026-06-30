@@ -1,5 +1,6 @@
 # Problem Set 1 Parameters
-Due: 11:59 PM Wednesday September 9th on HuskyCT
+Due: 11:59 PM Wednesday September 9th on HuskyCT  
++ Submitted solutions are restricted to imports of external functions from standard built-in Python libraries (i.e. `math`, `time`, `os`, `sys`, etc.).
 
 ## 1.1 The Madelung Constant
 ```{literalinclude} ps1_1.py
