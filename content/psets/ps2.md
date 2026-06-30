@@ -7,8 +7,9 @@ Due: 11:59 PM Wednesday September 16th on HuskyCT
 ```{literalinclude} ps2_1.py
 :lineno-match:
 ``` 
-
+[sunspots.txt](./sunspots.txt)  
 ```{literalinclude} sunspots.txt
+:end-line: 10
 :lineno-match:
 ``` 
 
@@ -16,8 +17,9 @@ Due: 11:59 PM Wednesday September 16th on HuskyCT
 ```{literalinclude} ps2_2.py
 :lineno-match:
 ``` 
-
+[stm.txt](./stm.txt)  
 ```{literalinclude} stm.txt
+:end-line: 10
 :lineno-match:
 ``` 
 
@@ -30,5 +32,9 @@ Due: 11:59 PM Wednesday September 16th on HuskyCT
 ```{literalinclude} ps2_4.py
 :lineno-match:
 ``` 
+
+[millikan.txt](./millikan.txt)  
 ```{literalinclude} millikan.txt
-:lineno-ma
+:lineno-match:
+:end-line: 10
+```
