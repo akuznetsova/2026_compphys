@@ -45,14 +45,17 @@ project:
             - file: content/lessons/1_qs.md
               hidden: true
         - file: content/lessons/2_setup.md          # dropdown menu
-          #children:
-           # - file: content/lessons/2a_matplotlib.ipynb
-           # - file: content/lessons/2b_computer.md
-           # - file: content/in-class/2a_exercises.ipynb
+          children:
+           - file: content/lessons/2a_matplotlib.ipynb
+           - file: content/lessons/2b_computer.md
+           - file: content/in-class/2a_exercises.ipynb
+           - file: content/lessons/2_qs.md
+               hidden: true
         - file: content/lessons/3_setup.md
           children:
             - file: content/lessons/3a_accuracy.ipynb
             - file: content/in-class/3a_exercises.ipynb
+            - file: content/lessons/3_qs.md
     - file: content/4_psets.md
       children: 
         - file: content/psets/ps1.md

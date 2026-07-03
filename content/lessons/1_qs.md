@@ -5,6 +5,7 @@ How many valid ways can you think of using the function above to calculate the n
 ```
 
 ````{solution} ex_1-1
+:label: sol_1-1
 :class: dropdown
 
 ```{code-block} python
@@ -28,6 +29,7 @@ What is the assigned value of x?
 ```
 
 ````{solution} ex_1-2
+:label: sol_1-2
 :class: dropdown
 
 `1000000`
