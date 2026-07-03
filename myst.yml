@@ -40,23 +40,35 @@ project:
         - file: content/lessons/1_setup.md          # dropdown menu
           children:
             - file: content/lessons/1a_intro.md
+              hidden: True
             - file: content/lessons/1b_pythonintro.ipynb
+              hidden: True
             - file: content/in-class/1b_exercises.ipynb
+              hidden: True
             - file: content/lessons/1_qs.md
               hidden: true
         - file: content/lessons/2_setup.md          # dropdown menu
           children:
             - file: content/lessons/2a_matplotlib.ipynb
+              hidden: True
             - file: content/lessons/2b_computer.md
+              hidden: True
             - file: content/in-class/2a_exercises.ipynb
+              hidden: True
             - file: content/lessons/2_qs.md
-              hidden: true
+              hidden: True
         - file: content/lessons/3_setup.md
           children:
             - file: content/lessons/3a_accuracy.ipynb
+              hidden: True
             - file: content/in-class/3a_exercises.ipynb
+              hidden: True
             - file: content/lessons/3_qs.md
-              hidden: true
+              hidden: True
+        - file: content/lessons/4_setup.md
+          children:
+            - file: content/lessons/4_qs.md
+              hidden: True
     - file: content/4_psets.md
       children: 
         - file: content/psets/ps1.md

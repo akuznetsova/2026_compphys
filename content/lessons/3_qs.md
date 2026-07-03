@@ -57,7 +57,7 @@ So, how can we get around this problem? Express $S(-24)$ in a more numerically t
 :class: dropdown
 :label: sol_3-3
 
-$$e^(-24) = (e^-1)^{24}$$
+$$e^{-24} = (e^{-1})^{24}$$
 Thus:
 $$S(-24) = S(-1)^{24}$$
 ````
