@@ -1,21 +1,21 @@
 # Week 3
 
-+ T (09-15): Accuracy
-+ R (09-17): Integration
++ T (09-15): [Accuracy](./3a_accuracy.ipynb)
++ R (09-17): [Accuracy](./3a_accuracy.ipynb)
 
 ## Readings
-### Next week: Accuracy & Integration
+### This week: Accuracy
+- [What every computer scientist should know about floating-point arithmetic](https://dl.acm.org/doi/10.1145/103162.103163) by D. Goldberg
 - Newman Ch. 4
-- Newman Ch. 5
 
 ### Next week:
 - Newman Ch. 5
 
 
 `````{tip}
-Download the module [here](../in-class/gendata.py) and in-class exercises template [here](../in-class/2a_exercises.ipynb)
+Download the in-class exercises template [here](../in-class/3a_exercises.ipynb)
 `````
 
 ## Reminders 
-Problem Set 2 is due **this Wednesday September 16th.** by 11:59 PM.  
+[Problem Set 2](../psets/ps2.md) is due **this Wednesday September 16th.** by 11:59 PM.  
 The deadline to revise and resubmit problems from PS1/PS2 will be next week: Friday September 25th.

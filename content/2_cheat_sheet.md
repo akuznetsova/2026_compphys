@@ -1,7 +1,8 @@
 (cheat-sheet)=
 # Resources
 
-Below is a set of external resources that may be useful for various aspects of this course. 
+Below is a set of links to external resources that may be useful for various aspects of this course. They are all freely available and accessible online. 
+There is a lot of coding content on the web, of varying levels of quality. Googling around can yield answers, but often not appropriate context or explanation.
 
 ## General Python
 + [Think Python](https://allendowney.github.io/ThinkPython) by Allen Downey.
@@ -28,6 +29,12 @@ Below is a set of external resources that may be useful for various aspects of t
     - A beginners guide to Unix OS commands.
 + [Bandit War Games](https://overthewire.org/wargames/bandit) by OverTheWire
     - A set of "games" to teach the principles of making remote connections and navigating filesystems on the command line. Nice if you enjoy gamification.
+
+## Computing for Physics
++ [An introductory course for Computational Physics](https://farside.ph.utexas.edu/teaching/329/lectures/lectures.html) by Richard Fitzpatrick.
+    - A set of html notes on computational physics concepts. Written for programming in C, but concepts transferrable.
++ [Numerical Recipes](https://numerical.recipes/book.html) by William H. Press et al. 
+    - One of the classics. Full 3rd edition hosted by the authors as pdfs. Written for C++, but concepts transferrable.
 
 ## Misc.
 + [Project Euler](https://projecteuler.net/about)

@@ -16,4 +16,4 @@ You can grab a template for this week's in-class exercises [here](../in-class/1b
 `````
 
 ## Reminders 
-Problem Set 1 will be due on Wednesday September 9th by 11:59 PM.
+[Problem Set 1](../psets/ps1.md) will be due on Wednesday September 9th by 11:59 PM.

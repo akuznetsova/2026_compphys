@@ -1,4 +1,4 @@
-# Problem Set 1 Parameters
+# PS1: Tour of Python
 Due: 11:59 PM Wednesday September 9th on HuskyCT  
 + Submitted solutions are restricted to imports of external functions from standard built-in Python libraries (i.e. `math`, `time`, `os`, `sys`, etc.).
 

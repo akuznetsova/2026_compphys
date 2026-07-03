@@ -27,7 +27,7 @@ For any programming assignment, your submission must:
 
 2. Produce the correct output.
 
-    The primary scoring criteria for programming assignment is whether your code produces the correct output. Consequently, the I/O formats of the programs described in the problem statement are crucial and should be followed very precisely. The good news is that, in **many** assignments for this course, the skeleton code provided will also include the required I/O.
+    The primary scoring criteria for programming assignment is whether your code produces the correct output. Consequently, the I/O formats of the programs described in the problem statement are crucial and should be followed very precisely. The good news is that, in **many** assignments for this course, the skeleton code provided includes some reminders of the required I/O.
 
 ### Rubric
 Each individual problem can receive a score of $\checkmark+$ (satisfactory), $\checkmark$ (progress) or $\checkmark-$ (unsatisfactory). Up to one (1) week after the deadline, individual problems may be corrected and re-submitted for a potential one level improvement up the scale e.g. $\checkmark- \rightarrow \checkmark$ or $\checkmark \rightarrow \checkmark+$.

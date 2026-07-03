@@ -13,8 +13,8 @@ You can find each week's materials: lectures, assigned readings, in-class exerci
 | Week              | Topic                       | Readings (Newman)           | Notes          |
 | ---               | ---                         | ---                         | ---            |
 | [1](./lessons/1_setup.md)                 | course overview, python     | Ch. 2                       | -              |
-| [2](./lessons/2_setup.md)                 | python tools, visualization | Ch. 3                       | W: PS1 due     | 
-| 3                 | accuracy and error          | Ch. 4                       | W: PS2 due     |
+| [2](./lessons/2_setup.md)                 | python tools, visualization | Ch. 3                       | W: [PS1](./psets/ps1.md) due     | 
+| [3](./lessons/3_setup.md)                 | accuracy and error          | Ch. 4                       | W: [PS2](./psets/ps2.md) due     |
 | 4                 | integration, differentiation| Ch. 5                       | F: R&R (PS1/PS2)     |
 | 5                 | linear + non-linear eqns.   | Ch. 6                       | W: PS3 due     |
 | 6                 | ordinary diff. eqns. (ODEs) | Ch. 8                       | W: PS4 due     |
