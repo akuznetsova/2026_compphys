@@ -46,10 +46,10 @@ project:
               hidden: true
         - file: content/lessons/2_setup.md          # dropdown menu
           children:
-           - file: content/lessons/2a_matplotlib.ipynb
-           - file: content/lessons/2b_computer.md
-           - file: content/in-class/2a_exercises.ipynb
-           - file: content/lessons/2_qs.md
+            - file: content/lessons/2a_matplotlib.ipynb
+            - file: content/lessons/2b_computer.md
+            - file: content/in-class/2a_exercises.ipynb
+            - file: content/lessons/2_qs.md
               hidden: true
         - file: content/lessons/3_setup.md
           children:
