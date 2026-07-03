@@ -42,6 +42,8 @@ project:
             - file: content/lessons/1a_intro.md
             - file: content/lessons/1b_pythonintro.ipynb
             - file: content/in-class/1b_exercises.ipynb
+            - file: content/lessons/1_qs.md
+              hidden: true
         - file: content/lessons/2_setup.md          # dropdown menu
           #children:
            # - file: content/lessons/2a_matplotlib.ipynb
