@@ -4,7 +4,7 @@
 + R (09-10): [Talking to the Computer](./2b_computer.md)
 
 ```{note}
-If you have a Windows laptop, please make sure you have set up the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) **before** Thursday's class. 
+If you have a Windows laptop, please make sure you have set up the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) **before** Thursday's class. If you are having issues, I can help troubleshoot in office hours.
 ```
 
 ## Readings
