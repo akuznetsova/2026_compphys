@@ -5,7 +5,7 @@ The tentative topical schedule is outlined in the table below.
 ```{note}
 For a complete set of deadlines and policies please refer to the course syllabus.
 ```
-You can find each week's materials: lectures, assigned readings, in-class exercises, and problem sets on the sidebar's drop-down list below.  
+You can find each week's materials: lectures, assigned readings, in-class exercises, and problem sets on the sidebar's drop-down list below. Clicking on the week number will take to you to the page with all the content for the week linked.
 
 :::{table} Course Schedule
 :label: schedule
@@ -15,8 +15,8 @@ You can find each week's materials: lectures, assigned readings, in-class exerci
 | [1](./lessons/1_setup.md)                 | course overview, python     | Ch. 2                       | -              |
 | [2](./lessons/2_setup.md)                 | python tools, visualization | Ch. 3                       | W: [PS1](./psets/ps1.md) due     | 
 | [3](./lessons/3_setup.md)                 | accuracy and error          | Ch. 4                       | W: [PS2](./psets/ps2.md) due     |
-| 4                 | integration, differentiation| Ch. 5                       | F: R&R (PS1/PS2)     |
-| 5                 | linear + non-linear eqns.   | Ch. 6                       | W: PS3 due     |
+| [4](./lessons/4_setup.md)                 | integration, differentiation| Ch. 5                       | F: R&R (PS1/PS2)     |
+| 5                 | linear + non-linear eqns.   | Ch. 6                       | W: [PS3](./psets/ps3.md) due     |
 | 6                 | ordinary diff. eqns. (ODEs) | Ch. 8                       | W: PS4 due     |
 | 7                 | ODEs                        | Ch. 8                       | F: R&R (PS3/PS4)     |
 | 8                 | partial diff. eqns. (PDES)  | Ch. 9                       | W: PS5 due     |

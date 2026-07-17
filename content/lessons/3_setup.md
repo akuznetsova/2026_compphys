@@ -8,7 +8,7 @@
 - [What every computer scientist should know about floating-point arithmetic](https://dl.acm.org/doi/10.1145/103162.103163) by D. Goldberg
 - Newman Ch. 4
 
-### Next week:
+### Next week: Integration & Differentiation
 - Newman Ch. 5
 
 

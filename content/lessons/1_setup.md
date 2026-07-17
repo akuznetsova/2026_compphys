@@ -9,6 +9,7 @@
 - Newman Ch. 2 (by Thurs.)
 ### Next week: Visualization
 - Newman Ch. 3
+- [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) by Rougier et al.
 
 
 `````{tip}

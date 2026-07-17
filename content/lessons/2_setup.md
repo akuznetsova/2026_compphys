@@ -10,6 +10,7 @@ If you have a Windows laptop, please make sure you have set up the [Windows Subs
 ## Readings
 ### This week: Visualization and other tools
 - Newman Ch. 3 
+- [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) by Rougier et al.
 ### Next week: Accuracy
 - [What every computer scientist should know about floating-point arithmetic](https://dl.acm.org/doi/10.1145/103162.103163) by D. Goldberg
 - Newman Ch. 4
