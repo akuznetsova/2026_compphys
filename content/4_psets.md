@@ -12,22 +12,22 @@
 
 5. Submit your code on the HuskyCT assignment page, uploading all the python scripts for all the questions on that problem set at once.
 
-6. After submission, you will get access to a file with the correct *outputs* for each problem that you can use to cross-reference your solution. If at this stage, you wish to revise your code, you will have unitl the revise and resubmit deadline for the problemset to resubmit any individual problems for a potential increase in grade. Resubmissions should be entered on the "revision" assignment page on HuskyCT.
+6. After submission, you will get access to a file with the correct *outputs* for each problem that you can use to cross-reference your solution. If at this stage, you wish to revise your code, you will have until the revise and resubmit deadline for the problem set to resubmit any individual problems for a potential increase in grade. Resubmissions should be entered on the "revision" assignment page on HuskyCT.
 
 7. You will receive a brief feedback report on HuskyCT with the scores for each individual problem on your original submission and any revisions. 
 
 ## Scoring criteria
 For any programming assignment, your submission must:
 
-1. Satisfy the criteria and limitations of the problem.
+1. **Satisfy the criteria and limitations of the problem.**
 
     Each problem will have certain stipulations as to what it must include. You may be limited in what objects you use, which libraries are available, etc. The point of any assignment is to practice and demonstrate your ability with specific skills and techniques. 
 
     You might be able to get a working program in some completely different manner, maybe rewriting entire parts. However, if you have not employed the required techniques, your submission will not meet the criteria.
 
-2. Produce the correct output.
+2. **Produce the correct output.**
 
-    The primary scoring criteria for programming assignment is whether your code produces the correct output. Consequently, the I/O formats of the programs described in the problem statement are crucial and should be followed very precisely. The good news is that, in **many** assignments for this course, the skeleton code provided includes some reminders of the required I/O.
+    The primary scoring criteria for programming assignments is whether your code produces the correct output. Consequently, the I/O formats of the programs described in the problem statement are crucial and should be followed very precisely. The good news is that, in **many** assignments for this course, the skeleton code provided includes some reminders of the required I/O.
 
 ### Rubric
 Each individual problem can receive a score of $\checkmark+$ (satisfactory), $\checkmark$ (progress) or $\checkmark-$ (unsatisfactory). Up to one (1) week after the deadline, individual problems may be corrected and re-submitted for a potential one level improvement up the scale e.g. $\checkmark- \rightarrow \checkmark$ or $\checkmark \rightarrow \checkmark+$.

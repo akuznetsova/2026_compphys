@@ -75,6 +75,14 @@ project:
               hidden: True
             - file: content/lessons/4_qs.md
               hidden: True
+        - file: content/lessons/5_setup.md
+          children:
+            - file: content/lessons/5a_lineareqs.ipynb
+              hidden: True
+            - file: content/lessons/5b_nonlineareqs.ipynb
+              hidden: True
+            - file: content/in-class/5a_exercises.ipynb
+              hidden: True
     - file: content/4_psets.md
       children: 
         - file: content/psets/ps1.md

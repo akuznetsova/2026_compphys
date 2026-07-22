@@ -1,7 +1,10 @@
 # Week 2
 
-+ T (09-08): [Visualization with Matplotlib](./2a_matplotlib.ipynb)
-+ R (09-10): [Talking to the Computer](./2b_computer.md)
+%+ T (09-08): [Visualization with Matplotlib](./2a_matplotlib.ipynb)
+%+ R (09-10): [Talking to the Computer](./2b_computer.md)
+
++ T (09-08): Visualization with Matplotlib
++ R (09-10): Talking to the Computer
 
 ```{note}
 If you have a Windows laptop, please make sure you have set up the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) **before** Thursday's class. If you are having issues, I can help troubleshoot in office hours.

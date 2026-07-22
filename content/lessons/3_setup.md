@@ -1,7 +1,10 @@
 # Week 3
 
-+ T (09-15): [Accuracy](./3a_accuracy.ipynb)
-+ R (09-17): [Accuracy](./3a_accuracy.ipynb)
+%+ T (09-15): [Accuracy](./3a_accuracy.ipynb)
+%+ R (09-17): [Accuracy](./3a_accuracy.ipynb)
+
++ T (09-15): Accuracy
++ R (09-17): Accuracy continued
 
 ## Readings
 ### This week: Accuracy
@@ -9,7 +12,8 @@
 - Newman Ch. 4
 
 ### Next week: Integration & Differentiation
-- Newman Ch. 5
+- Newman Ch. 6.1, 6.2 (by Tues.)
+- Newman Ch. 6.3, 6.4 (by Thurs.)
 
 
 `````{tip}

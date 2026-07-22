@@ -1,7 +1,10 @@
 # Week 1
 
-+ T (09-01) : [Course Overview](./1a_intro.md)
-+ R (09-03) : [Brief Python Tour](./1b_pythonintro.ipynb)
+%+ T (09-01) : [Course Overview](./1a_intro.md)
+%+ R (09-03) : [Brief Python Tour](./1b_pythonintro.ipynb)
+
++ T (09-01) : Course Overview
++ R (09-03) : Brief Python Tour
 
 ## Readings
 ### This week: Introduction
