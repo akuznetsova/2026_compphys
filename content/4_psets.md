@@ -10,7 +10,7 @@
 
 4. Save your solution to each question in a separate python `.py` file named `ps[PROBLEM SET NUMBER]_[QUESTION NUMBER]_[LASTNAME].py`. For example, if I'm turning in the second problem on problem set 5 my file would be named: `ps5_2_kuznetsova.py`.
 
-5. Submit your code on the HuskyCT assignment page, uploading all the python scripts for all the questions on that problem set at once.
+5. Submit your code on the HuskyCT assignment page, uploading all the python scripts for all the questions on that problem set at once. 
 
 6. After submission, you will get access to a file with the correct *outputs* for each problem that you can use to cross-reference your solution. If at this stage, you wish to revise your code, you will have until the revise and resubmit deadline for the problem set to resubmit any individual problems for a potential increase in grade. Resubmissions should be entered on the "revision" assignment page on HuskyCT.
 
