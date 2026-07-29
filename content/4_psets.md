@@ -12,7 +12,7 @@
 
 5. Submit your code on the HuskyCT assignment page, uploading all the python scripts for all the questions on that problem set at once. 
 
-6. After submission, you will get access to a file with the correct *outputs* for each problem that you can use to cross-reference your solution. If at this stage, you wish to revise your code, you will have until the revise and resubmit deadline for the problem set to resubmit any individual problems for a potential increase in grade. Resubmissions should be entered on the "revision" assignment page on HuskyCT.
+6. After submission, you will get access to a file with the correct *outputs* for each problem that you can use to cross-reference your solution. If at this stage, you wish to revise your code, you will have until the **revise and resubmit (R & R)** deadline for the problem set to resubmit any individual problems for a potential increase in grade. Resubmissions should be entered on the "revision" assignment page on HuskyCT.
 
 7. You will receive a brief feedback report on HuskyCT with the scores for each individual problem on your original submission and any revisions. 
 
@@ -30,7 +30,7 @@ For any programming assignment, your submission must:
     The primary scoring criteria for programming assignments is whether your code produces the correct output. Consequently, the I/O formats of the programs described in the problem statement are crucial and should be followed very precisely. The good news is that, in **many** assignments for this course, the skeleton code provided includes some reminders of the required I/O.
 
 ### Rubric
-Each individual problem can receive a score of $\checkmark+$ (satisfactory), $\checkmark$ (progress) or $\checkmark-$ (unsatisfactory). Up to one (1) week after the deadline, individual problems may be corrected and re-submitted for a potential one level improvement up the scale e.g. $\checkmark- \rightarrow \checkmark$ or $\checkmark \rightarrow \checkmark+$.
+Each individual problem can receive a score of $\checkmark+$ (satisfactory), $\checkmark$ (progress) or $\checkmark-$ (unsatisfactory). Up until the R&R deadline, individual problems may be corrected and re-submitted for a potential one level improvement up the scale e.g. $\checkmark- \rightarrow \checkmark$ or $\checkmark \rightarrow \checkmark+$.
 
 + $\checkmark+$: solution is fully complete and correct, meets all stated criteria. 
 + $\checkmark$:  solution has some minor errors, but is mostly complete and correct.

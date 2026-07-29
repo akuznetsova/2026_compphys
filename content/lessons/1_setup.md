@@ -10,7 +10,7 @@
 ### This week: Introduction
 - Read through this course website 
 - Newman Ch. 2 (by Thurs.)
-### Next week: Visualization
+### Next week: [Visualization and Other Tools](./2_setup.md)
 - Newman Ch. 3
 - [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) by Rougier et al.
 
@@ -20,4 +20,4 @@ You can grab a template for this week's in-class exercises [here](../in-class/1b
 `````
 
 ## Reminders 
-[Problem Set 1](../psets/ps1.md) will be due on Wednesday September 9th by 11:59 PM.
+[Problem Set 1](../psets/ps1.md) will be due next Wednesday September 9th by 11:59 PM.

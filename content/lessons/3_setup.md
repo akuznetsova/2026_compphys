@@ -9,9 +9,10 @@
 ## Readings
 ### This week: Accuracy
 - [What every computer scientist should know about floating-point arithmetic](https://dl.acm.org/doi/10.1145/103162.103163) by D. Goldberg
-- Newman Ch. 4
+- Newman Ch. 4.1-4.2 (by Tues.)
+- Newman Ch. 4.3 (by Thurs.)
 
-### Next week: Integration & Differentiation
+### Next week: [Integration & Differentiation](./4_setup.md)
 - Newman Ch. 6.1, 6.2 (by Tues.)
 - Newman Ch. 6.3, 6.4 (by Thurs.)
 

@@ -13,12 +13,12 @@ You can find each week's materials: lectures, assigned readings, in-class exerci
 | Week              | Topic                       | Readings (Newman)           | Notes          |
 | ---               | ---                         | ---                         | ---            |
 | [1](./lessons/1_setup.md)                 | course overview, python     | Ch. 2                       | -              |
-| [2](./lessons/2_setup.md)                 | python tools, visualization | Ch. 3                       | W: [PS1](./psets/ps1.md) due     | 
+| [2](./lessons/2_setup.md)                 | visualization, other tools | Ch. 3                       | W: [PS1](./psets/ps1.md) due     | 
 | [3](./lessons/3_setup.md)                 | accuracy and error          | Ch. 4                       | W: [PS2](./psets/ps2.md) due     |
 | [4](./lessons/4_setup.md)                 | integration, differentiation| Ch. 5                       | F: R&R (PS1/PS2)     |
 | [5](./lessons/5_setup.md)                 | linear + non-linear eqns.   | Ch. 6                       | W: [PS3](./psets/ps3.md) due     |
-| 6                 | ordinary diff. eqns. (ODEs) | Ch. 8                       | W: PS4 due     |
-| 7                 | ODEs                        | Ch. 8                       | F: R&R (PS3/PS4)     |
+| [6](./lessons/6_setup.md)                 | ordinary diff. eqns. (ODEs) | Ch. 8.1-8.4                       | W: [PS4](./psets/ps4.md) due     |
+| 7                 | ODEs: additional methods                        | Ch. 8.5,8.6                       | F: R&R (PS3/PS4)     |
 | 8                 | partial diff. eqns. (PDES)  | Ch. 9                       | W: PS5 due     |
 | 9                 | PDEs                        | Ch. 9                       | W: pitch due, F: R&R (PS5)   |
 | 10 		        | Fourier Transforms   	      | Ch. 7                       | W: PS6 due     |

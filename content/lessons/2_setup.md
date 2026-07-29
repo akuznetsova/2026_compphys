@@ -14,9 +14,10 @@ If you have a Windows laptop, please make sure you have set up the [Windows Subs
 ### This week: Visualization and other tools
 - Newman Ch. 3 
 - [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) by Rougier et al.
-### Next week: Accuracy
+### Next week: [Accuracy](./3_setup.md)
 - [What every computer scientist should know about floating-point arithmetic](https://dl.acm.org/doi/10.1145/103162.103163) by D. Goldberg
-- Newman Ch. 4
+- Newman Ch. 4.1-4.2 (by Tues.)
+- Newman Ch. 4.3 (by Thurs.)
 
 
 `````{tip}
@@ -25,4 +26,4 @@ Download the module [here](../in-class/gendata.py) and in-class exercises templa
 
 ## Reminders 
 [Problem Set 1](../psets/ps1.md) is due **this Wednesday September 9th** by 11:59 PM. 
-[Problem Set 2](../psets/ps2.md) is due next Wednesday September 16th.
+[PS2](../psets/ps2.md) will be due next Wednesday September 16th.

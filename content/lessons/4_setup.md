@@ -11,7 +11,7 @@
 - Newman Ch. 5.1-5.6 (by Tues.)
 - Newman Ch. 5.8-5.10 (by Thurs.)
 
-### Next week: Solving Linear and non-Linear Equations
+### Next week: [Solving Linear and non-Linear Equations](./5_setup.md)
 - Newman Ch. 6.1, 6.2 (by Tues.)
 - Newman Ch. 6.3, 6.4 (by Thurs.)
 
@@ -26,4 +26,4 @@ Class is taught by Dr. Kevin Whitley this week.
 The deadline to revise and resubmit problems from PS1/PS2 is this **Friday September 25th** at 11:59 PM.  
 Resubmit only the problems you wish to revise. 
 
-PS3 will be due next Wednesday September 30th at 11:59 PM
+[PS3](../psets/ps3.md) will be due next Wednesday September 30th at 11:59 PM
