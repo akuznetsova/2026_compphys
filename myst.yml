@@ -88,7 +88,9 @@ project:
         - file: content/lessons/6_setup.md
           children:
             - file: content/lessons/6a_ODEs.ipynb
+              hidden: True
             - file: content/lessons/6b_ODEs.ipynb
+              hidden: True
             - file: content/in-class/6a_exercises.ipynb
               hidden: True
             - file: content/lessons/6_qs.md
