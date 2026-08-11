@@ -1,24 +1,22 @@
-# Week 6
+# Week 8
 
-+ T (10-13): Additional Methods for ODEs
-+ R (10-15): Boundary Value Problems (BVPs)
++ T (10-20): Intro to PDEs; BVP PDEs
++ R (10-22): IVP PDEs
 
 ## Readings
-### This week: ODEs - Additional Methods and BVPs
-- Newman Ch. 8.5 (by Tues)
-- Newman Ch. 8.6 (by Thurs)
+### This week: Partial Differential Equations (PDEs)
+- Newman Ch. 9.1-9.2 (by Tues.)
+- Newman Ch. 9.3.1-9.3.2 (by Thurs.)
 
-### Next week: Partial Differential Equations (PDEs)
-- Newman Ch. 9
+
+### Next week: [PDEs - Implicit and Spectral methods](./9_setup.md)
+- Newman Ch. 9.3
 
 
 `````{tip}
-Download the in-class exercises template [here](../in-class/7a_exercises.ipynb)
+Download the in-class exercises template [here](../in-class/8a_exercises.ipynb)
 `````
 
 ## Reminders 
-The deadline to revise and resubmit problems from PS3/PS4 is this **Friday October 16th** at 11:59 PM.  
-Resubmit only the problems you wish to revise. 
-
-[PS5](../psets/ps5.md) will be due next Wed. October 21st at 11:59 PM on HuskyCT.
-
+[Problem Set 5](../psets/ps5.md) is be due **this Wed. October 21st** at 11:59 PM on HuskyCT.  
+Final project pitch is due next Wed. Oct. 28th on HuskyCT.

@@ -95,12 +95,83 @@ project:
               hidden: True
             - file: content/lessons/6_qs.md
               hidden: True
+        - file: content/lessons/7_setup.md
+          children:
+            - file: content/lessons/7a_ODEs.ipynb
+              hidden: True
+            - file: content/lessons/7b_ODes.ipynb
+              hidden: True
+            - file: content/in-class/7a_exercises.ipynb
+              hidden: True
+            - file: content/lessons/7_qs.md
+              hidden: True
+        - file: content/lessons/8_setup.md
+          children:
+            - file: content/lessons/8a_PDEs.ipynb
+              hidden: True
+            - file: content/lessons/8b_PDes.ipynb
+              hidden: True
+            - file: content/in-class/8a_exercises.ipynb
+              hidden: True
+            - file: content/lessons/8_qs.md
+              hidden: True
+        - file: content/lessons/9_setup.md
+          children:
+            - file: content/lessons/9a_PDEs.ipynb
+              hidden: True
+            - file: content/lessons/9b_PDes.ipynb
+              hidden: True
+            - file: content/in-class/9a_exercises.ipynb
+              hidden: True
+            - file: content/lessons/9_qs.md
+              hidden: True
+        - file: content/lessons/10_setup.md
+          children:
+            - file: content/lessons/10a_FTs.ipynb
+              hidden: True
+            - file: content/in-class/10a_exercises.ipynb
+              hidden: True
+            - file: content/lessons/10_qs.md
+              hidden: True
+        - file: content/lessons/11_setup.md
+          children:
+            - file: content/lessons/11a_MCs.ipynb
+              hidden: True
+            - file: content/lessons/11b_MCs.ipynb
+              hidden: True
+            - file: content/in-class/11a_exercises.ipynb
+              hidden: True
+            - file: content/lessons/11_qs.md
+              hidden: True
+        - file: content/lessons/12_setup.md
+          children:
+            - file: content/lessons/12a_MCs.ipynb
+              hidden: True
+            - file: content/lessons/12b_MCs.ipynb
+              hidden: True
+            - file: content/in-class/12a_exercises.ipynb
+              hidden: True
+            - file: content/lessons/12_qs.md
+              hidden: True
+        - file: content/lessons/14_setup.md
+          children:
+            - file: content/lessons/14a_.ipynb
+              hidden: True
+            - file: content/in-class/14a_exercises.ipynb
+              hidden: True
+            - file: content/lessons/14_qs.md
+              hidden: True
+        - file: content/lessons/15_setup.md
     - file: content/4_psets.md
       children: 
         - file: content/psets/ps1.md
         - file: content/psets/ps2.md
         - file: content/psets/ps3.md
         - file: content/psets/ps4.md
+        - file: content/psets/ps5.md
+        - file: content/psets/ps6.md
+        - file: content/psets/ps7.md
+        - file: content/psets/ps8.md
   abbreviations:
     JB2: Jupyter Book 2
     CI/CD: Continuous Integration/Continuous Deployment

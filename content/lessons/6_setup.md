@@ -8,7 +8,7 @@
 - Newman Ch. 8.1, 8.2 (by Tues.)
 - Newman Ch. 8.3, 8.4 (by Thurs.)
 
-### Next week: ODEs - Additional Methods and BVPs
+### Next week: [ODEs - Additional Methods and BVPs](./7_setup.md)
 - Newman Ch. 8.5-8.6
 
 

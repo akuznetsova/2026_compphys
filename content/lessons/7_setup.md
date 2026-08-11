@@ -1,4 +1,4 @@
-# Week 6
+# Week 7
 
 + T (10-13): Additional Methods for ODEs
 + R (10-15): Boundary Value Problems (BVPs)
@@ -8,8 +8,8 @@
 - Newman Ch. 8.5 (by Tues)
 - Newman Ch. 8.6 (by Thurs)
 
-### Next week: Partial Differential Equations (PDEs)
-- Newman Ch. 9
+### Next week: [Partial Differential Equations (PDEs)](./8_setup.md)
+- Newman Ch. 9.1-9.3.2
 
 
 `````{tip}
