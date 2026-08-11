@@ -37,7 +37,7 @@ project:
     - file: content/2_cheat_sheet.md
     - file: content/3_schedule.md
       children:
-        - file: content/lessons/1_setup.md          # dropdown menu
+        - file: content/lessons/b_setup.md          # dropdown menu
           children:
             - file: content/lessons/1a_intro.md
               hidden: True
@@ -58,6 +58,7 @@ project:
             - file: content/lessons/2_qs.md
               hidden: True
         - file: content/lessons/3_setup.md
+          hidden: True
           children:
             - file: content/lessons/3a_accuracy.ipynb
               hidden: True
@@ -66,6 +67,7 @@ project:
             - file: content/lessons/3_qs.md
               hidden: True
         - file: content/lessons/4_setup.md
+          hidden: True
           children:
             - file: content/lessons/4a_integrals.ipynb
               hidden: True
@@ -76,6 +78,7 @@ project:
             - file: content/lessons/4_qs.md
               hidden: True
         - file: content/lessons/5_setup.md
+          hidden: True
           children:
             - file: content/lessons/5a_lineareqs.ipynb
               hidden: True
@@ -86,6 +89,7 @@ project:
             - file: content/lessons/5_qs.md
               hidden: True
         - file: content/lessons/6_setup.md
+          hidden: True
           children:
             - file: content/lessons/6a_ODEs.ipynb
               hidden: True
@@ -96,6 +100,7 @@ project:
             - file: content/lessons/6_qs.md
               hidden: True
         - file: content/lessons/7_setup.md
+          hidden: True
           children:
             - file: content/lessons/7a_ODEs.ipynb
               hidden: True
@@ -106,6 +111,7 @@ project:
             - file: content/lessons/7_qs.md
               hidden: True
         - file: content/lessons/8_setup.md
+          hidden: True
           children:
             - file: content/lessons/8a_PDEs.ipynb
               hidden: True
@@ -116,6 +122,7 @@ project:
             - file: content/lessons/8_qs.md
               hidden: True
         - file: content/lessons/9_setup.md
+          hidden: True
           children:
             - file: content/lessons/9a_PDEs.ipynb
               hidden: True
@@ -126,6 +133,7 @@ project:
             - file: content/lessons/9_qs.md
               hidden: True
         - file: content/lessons/10_setup.md
+          hidden: True
           children:
             - file: content/lessons/10a_FTs.ipynb
               hidden: True
@@ -134,6 +142,7 @@ project:
             - file: content/lessons/10_qs.md
               hidden: True
         - file: content/lessons/11_setup.md
+          hidden: True
           children:
             - file: content/lessons/11a_MCs.ipynb
               hidden: True
@@ -144,6 +153,7 @@ project:
             - file: content/lessons/11_qs.md
               hidden: True
         - file: content/lessons/12_setup.md
+          hidden: True
           children:
             - file: content/lessons/12a_MCs.ipynb
               hidden: True
@@ -154,6 +164,7 @@ project:
             - file: content/lessons/12_qs.md
               hidden: True
         - file: content/lessons/14_setup.md
+          hidden: True
           children:
             - file: content/lessons/14a_.ipynb
               hidden: True
@@ -162,6 +173,7 @@ project:
             - file: content/lessons/14_qs.md
               hidden: True
         - file: content/lessons/15_setup.md
+          hidden: True
     - file: content/4_psets.md
       children: 
         - file: content/psets/ps1.md
