@@ -1,5 +1,6 @@
 ---
-abstract: " "
+parts:
+    abstract: " "
 exports:
   - format: pdf
     template: lapreprint-typst
