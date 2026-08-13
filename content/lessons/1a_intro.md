@@ -18,8 +18,13 @@ As such, computer programming is a broad umbrella term for multiple areas of kno
 ## Syntax
 Refers to the specific vocabulary of a programming language; knowing syntax means knowing the specific commands and how to use them to write programs (the grammar of putting words into sentences). In this course, we will focus on Python syntax but this is not a Python course.
 
+![](https://www.programiz.com/sites/tutorial2program/files/create-function-python.png)
+
 ## Algorithm
-Algorithms are largely language-independent.
+Algorithms are largely language-independent. They describe how we compute or execute specific tasks in code in a series of steps. The code written in a specific language is the implementation of the algorithm.
+![](https://miro.medium.com/v2/resize:fit:1400/0*dmK5OV8LmetYIOy2.png)
+
+Implementations of algorithms use syntax rules, like how you would write complete sentences using grammar rules.
 
 ## Architecture
 
