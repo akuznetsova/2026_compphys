@@ -4,7 +4,6 @@ abstract: |
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/notes_1a.pdf
     id: notes-1a
 downloads:
   - id: notes-1a
