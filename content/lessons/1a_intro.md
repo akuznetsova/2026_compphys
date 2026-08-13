@@ -5,10 +5,12 @@ exports:
   - format: pdf
     template: lapreprint-typst
     output: exports/notes_1a.pdf
-    id: notes_1a
+    id: notes-1a
 downloads:
-  - id: notes_1a
+  - id: notes-1a
     title: PDF notes
+  - file: 1a_intro.md
+    title: Source file
 ---
 
 # Course Intro
