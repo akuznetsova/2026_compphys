@@ -48,11 +48,12 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
         
+      - name: Build PDF Assets
+        run: myst build --pdf
+        
       - name: Build HTML
         run: jupyter book build --execute --html
         
-      - name: Build PDF Assets
-        run: myst build --pdf
         
       - name: Upload Output HTML as Artifact
         uses: actions/upload-pages-artifact@v3
