@@ -1,4 +1,6 @@
 ---
+abstract: |
+  --
 exports:
   - format: pdf
     template: curvenote
