@@ -3,7 +3,7 @@ abstract: |
   --
 exports:
   - format: pdf
-    template: curvenote
+    template: lapreprint-typst
     output: exports/notes_1a.pdf
     id: notes_1a
 downloads:
