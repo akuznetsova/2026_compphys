@@ -1,15 +1,18 @@
 # Week 7
 
-+ T (10-13): Additional Methods for ODEs
-+ R (10-15): Boundary Value Problems (BVPs)
 
-## Readings
-### This week: ODEs - Additional Methods and BVPs
-- Newman Ch. 8.5 (by Tues)
-- Newman Ch. 8.6 (by Thurs)
+## ODEs - Additional Methods and BVPs
 
-### Next week: [Partial Differential Equations (PDEs)](./8_setup.md)
-- Newman Ch. 9.1-9.3.2
+:::{table} 
+:label: w07
+:align: center
+| Class                                                          | Pre-Reading      |
+| ---                                                            | ---              |
+| T (10-13): Additional Methods for ODEs                     |Newman Ch. 8.5       | 
+| R (10-15): Boundary Value Problems (BVPs)                 | Newman Ch. 8.6     | 
+:::
+
+
 
 
 `````{tip}
@@ -21,4 +24,12 @@ The deadline to revise and resubmit problems from PS3/PS4 is this **Friday Octob
 Resubmit only the problems you wish to revise. 
 
 [PS5](../psets/ps5.md) will be due next Wed. October 21st at 11:59 PM on HuskyCT.
+
+
+### [Next week](./8_setup.md): Partial Differential Equations (PDEs)
+- [ ] Read Newman Ch. 9.1-9.3.2
+
+
+
+
 

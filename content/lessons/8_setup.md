@@ -1,16 +1,16 @@
 # Week 8
 
-+ T (10-20): Intro to PDEs; BVP PDEs
-+ R (10-22): IVP PDEs
 
-## Readings
-### This week: Partial Differential Equations (PDEs)
-- Newman Ch. 9.1-9.2 (by Tues.)
-- Newman Ch. 9.3.1-9.3.2 (by Thurs.)
+##  Partial Differential Equations (PDEs)
 
-
-### Next week: [PDEs - Implicit and Spectral methods](./9_setup.md)
-- Newman Ch. 9.3
+:::{table} 
+:label: w08
+:align: center
+| Class                                                          | Pre-Reading      |
+| ---                                                            | ---              |
+| T (10-20): Intro to PDEs; BVP PDEs                      |Newman Ch. 9.1-9.2       | 
+| R (10-22): IVP PDEs                                   | Newman Ch. 9.3.1-9.3.2     | 
+:::
 
 
 `````{tip}
@@ -18,5 +18,11 @@ Download the in-class exercises template [here](../in-class/8a_exercises.ipynb)
 `````
 
 ## Reminders 
-[Problem Set 5](../psets/ps5.md) is be due **this Wed. October 21st** at 11:59 PM on HuskyCT.  
+[Problem Set 5](../psets/ps5.md) is due **this Wed. October 21st** at 11:59 PM on HuskyCT.  
+
 Final project pitch is due next Wed. Oct. 28th on HuskyCT.
+
+
+### [Next week](./9_setup.md): PDEs - Implicit and Spectral methods
+- [ ] Read the rest of Newman Ch. 9.3
+

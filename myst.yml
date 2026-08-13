@@ -37,7 +37,7 @@ project:
     - file: content/2_cheat_sheet.md
     - file: content/3_schedule.md
       children:
-        - file: content/lessons/b_setup.md          # dropdown menu
+        - file: content/lessons/1_setup.md          # dropdown menu
           children:
             - file: content/lessons/1a_intro.md
               hidden: True
