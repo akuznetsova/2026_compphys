@@ -1,6 +1,4 @@
 ---
-parts:
-    abstract: " "
 exports:
   - format: pdf
     template: lapreprint-typst
@@ -18,8 +16,10 @@ This is a computational physics course, focusing on learning and applying the nu
 As such, computer programming is a broad umbrella term for multiple areas of knowledge and types of technical skills. When people talk about coding they might in fact be encompassing:
 
 ## Syntax
+Refers to the specific vocabulary of a programming language; knowing syntax means knowing the specific commands and how to use them to write programs (the grammar of putting words into sentences). In this course, we will focus on Python syntax but this is not a Python course.
 
 ## Algorithm
+Algorithms are largely language-independent.
 
 ## Architecture
 
@@ -30,5 +30,5 @@ As such, computer programming is a broad umbrella term for multiple areas of kno
 ## Computing Environment
 
  
-In practice, in this course we will focus on algorithm development and coding from scratch with limited use of high-level libraries. This ahs the benefit of being quite similar across most programming languages so it is very transferable to Julia, C, Fortran, etc.
+In practice, in this course we will focus on algorithm development and coding from scratch with limited use of high-level libraries. This has the benefit of being quite similar across most programming languages so it is very transferable to Julia, C, Fortran, etc.
 
