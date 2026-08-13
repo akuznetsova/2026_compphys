@@ -1,13 +1,3 @@
----
-exports:
-  - format: pdf
-    template: lapreprint-typst
-    output: exports/w1_a.pdf
-    id: notes1_a
-downloads:
-  - id: notes1_a
-    title: PDF notes
----
 
 # Course Intro
 This is a computational physics course, focusing on learning and applying the numerical methods common in solving physics problems. As with many advanced and applied topics, this course ends up being a mix of interdisciplinary studies: the mathematics underpinning the development of these methods, their implementation with computer programming, and the physics of the problems themselves.

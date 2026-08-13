@@ -22,9 +22,9 @@ project:
   # exports and downloads
   exports:
     - format: typst
-      template: lapreprint-typst
-      output: exports/book.pdf
-      id: output-pdf
+      template: curvenote
+      articles: content/lessons/1a_intro.md
+
 
   # Jupyter Notebook configuration
   jupyter:
