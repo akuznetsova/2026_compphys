@@ -26,10 +26,8 @@ no-update-date: true
 ::::{grid} 1 1 3 3
 
 :::{div}
+Fall 2026
 
-- [About](https://mystmd.org/overview/ecosystem)
-- [Guide](https://mystmd.org/guide)
-- [Sandbox](https://mystmd.org/sandbox)
 :::
 
 :::{div}

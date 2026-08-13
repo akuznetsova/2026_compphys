@@ -1,6 +1,5 @@
 ---
-abstract: |
-  --
+abstract: " "
 exports:
   - format: pdf
     template: lapreprint-typst

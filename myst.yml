@@ -6,7 +6,7 @@ project:
   description: UConn Physics - Computational Physics 
   # keywords: []
   authors:
-    - name: Aleksandra Kuznetsova
+    - name: PHYS 5350 - Prof. A. Kuznetsova
   references:
     myst-guide: https://mystmd.org/guide
     jupyter: https://docs.jupyter.org/en/latest
