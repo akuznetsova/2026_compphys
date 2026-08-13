@@ -21,8 +21,8 @@ project:
   
   # exports and downloads
   exports:
-    - format: typst
-      template: curvenote
+    - format: pdf
+      template: lapreprint-typst
       articles: content/lessons/1a_intro.md
 
 
