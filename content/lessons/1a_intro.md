@@ -1,6 +1,13 @@
-+++ {"part": "abstract"}
 ---
-+++
+exports:
+  - format: pdf
+    template: curvenote
+    output: exports/notes_1a.pdf
+    id: notes_1a
+downloads:
+  - id: notes_1a
+    title: PDF notes
+---
 
 # Course Intro
 This is a computational physics course, focusing on learning and applying the numerical methods common in solving physics problems. As with many advanced and applied topics, this course ends up being a mix of interdisciplinary studies: the mathematics underpinning the development of these methods, their implementation with computer programming, and the physics of the problems themselves.

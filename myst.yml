@@ -20,10 +20,7 @@ project:
     - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updatedv1.1/page-last-updated.mjs
   
   # exports and downloads
-  exports:
-    - format: pdf
-      template: lapreprint-typst
-      articles: content/lessons/1a_intro.md
+  
 
 
   # Jupyter Notebook configuration
@@ -104,7 +101,7 @@ project:
           children:
             - file: content/lessons/7a_ODEs.ipynb
               hidden: True
-            - file: content/lessons/7b_ODes.ipynb
+            - file: content/lessons/7b_ODEs.ipynb
               hidden: True
             - file: content/in-class/7a_exercises.ipynb
               hidden: True
@@ -115,7 +112,7 @@ project:
           children:
             - file: content/lessons/8a_PDEs.ipynb
               hidden: True
-            - file: content/lessons/8b_PDes.ipynb
+            - file: content/lessons/8b_PDEs.ipynb
               hidden: True
             - file: content/in-class/8a_exercises.ipynb
               hidden: True
@@ -126,7 +123,7 @@ project:
           children:
             - file: content/lessons/9a_PDEs.ipynb
               hidden: True
-            - file: content/lessons/9b_PDes.ipynb
+            - file: content/lessons/9b_PDEs.ipynb
               hidden: True
             - file: content/in-class/9a_exercises.ipynb
               hidden: True
