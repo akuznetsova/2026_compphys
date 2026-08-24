@@ -1,9 +1,4 @@
 ---
-jupyter:
-  kernelspec:
-    display_name: base
-    language: python
-    name: python3
 exports:
   - format: pdf
     template: lapreprint-typst
@@ -15,6 +10,11 @@ downloads:
     title: Source file
   - file: 1b_pythonintro.ipynb
     title: Notebook
+jupyter:
+  kernelspec:
+    display_name: base
+    language: python
+    name: python3
 ---
 
 # Brief Tour of Python
