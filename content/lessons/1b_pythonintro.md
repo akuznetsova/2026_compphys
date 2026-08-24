@@ -195,13 +195,6 @@ print(log(10))
 print(log(10,2))
 ```
 
-:question:
-```{embed} #ex_1-1
-```
-
-```{embed} #sol_1-1
-```
-
 
 We can also use the `help` function directly on modules: 
 
@@ -336,14 +329,6 @@ print(z, type(z))
 x = float(z)
 ```
 
-:question:
-
-```{embed} #ex_1-2
-```
-
-```{embed} #sol_1-2
-```
-
 
 ## Operators and comparisons
 Most operators and comparisons in Python work as one would expect:
@@ -377,10 +362,7 @@ This is not true in Python 2.x, where the result of `/` is always an integer if 
 to be more specific, `1/2 = 0.5` (`float`) in Python 3.x, and `1/2 = 0` (`int`) in Python 2.x (but `1.0/2 = 0.5` in Python 2.x).
 ``` 
 
-:question:
 
-```{embed} #ex_1-3
-```
 
 ```{code-cell} python
 import numpy as np
