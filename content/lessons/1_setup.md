@@ -1,3 +1,4 @@
+
 # Week 1
 
 ## Introduction
@@ -12,7 +13,7 @@
 
 
 `````{tip}
-You can grab a template for this week's in-class exercises [here](../in-class/1a_exercises.ipynb)
+You can grab a template for this week's in-class exercises [here](../in-class/1a_exercises.md)
 `````
 
 ## Reminders

@@ -1,3 +1,8 @@
+---
+downloads:
+  - file: 1a_exercises.ipynb
+    title: Notebook
+---
 # Week 1: In-Class Exercises
 Due: noon Friday Sept. 4th on HuskyCT  
 Submit with filename: `w1_[LASTNAME].ipynb`
