@@ -17,7 +17,6 @@ downloads:
     title: Notebook
 ---
 
-
 # Brief Tour of Python
 This lesson has been adapted from J.R. Johansson's Scientific Python Lectures. 
 The latest version of this [IPython notebook](http://ipython.org/notebook.html) lecture is available at [http://github.com/jrjohansson/scientific-python-lectures](http://github.com/jrjohansson/scientific-python-lectures).
@@ -123,7 +122,7 @@ Most of the functionality in Python is provided by *modules*. The Python Standar
 
 To use a module in a Python program it first has to be imported. A module can be imported using the `import` statement. For example, to import the module `math`, which contains many standard mathematical functions, we can do:
 
-```python
+```{code-cell} python
 import math
 
 x = math.cos(2 * math.pi)
@@ -137,7 +136,7 @@ Notice how we have to call the functions with the prefix of the module name
 
 We can make this easier on ourselves by:
 
-```python
+```{code-cell} python
 import math as m
 
 x = m.cos(2 * m.pi)
@@ -149,7 +148,7 @@ Alternatively, we can chose to import all symbols (functions and variables) in a
 
 This can be very convenient if you don't forsee any other libraries with similar functionality.
 
-```python
+```{code-cell} python
 from math import *
 
 x = cos(2 * pi)
@@ -163,7 +162,7 @@ In large programs that include many modules, it is often a good idea to keep the
 
 As a third alternative, we can also choose to import only a few selected methods from a module by explicitly listing which ones we want to import instead of using the wildcard character `*`:
 
-```python
+```{code-cell} python
 from math import cos, pi
 
 x = cos(2 * pi)
@@ -176,7 +175,7 @@ print(x)
 
 Once a module is imported, we can list the symbols it provides using the `dir` function:
 
-```python
+```{code-cell} python
 import math
 
 print(dir(math))
@@ -190,11 +189,11 @@ In general, most docstrings tell you two important things:
 
 If we do `help(math.log)`, we can see that the required input ```x``` is the value you want the log of (it does not have to be called ```x```) and the optional input (you can tell because of the square brackets) is the base of the logarithm for which the default is a natural log.
 
-```python
+```{code-cell} python
 help(math.log)
 ```
 
-```python
+```{code-cell} python
 print(log(10))
 print(log(10,2))
 ```
@@ -238,7 +237,7 @@ Be aware of the keyword `lambda`, which could easily be a natural variable name 
 The assignment operator in Python is `=`. Python is a dynamically typed language, so unlike C or Fortran, we do not need to specify the type of a variable when we create one.
 Assigning a value to a new variable creates the variable:
 
-```python
+```{code-cell} python
 x = 1.0
 my_variable = 12.2
 print(x, my_variable)
@@ -246,7 +245,7 @@ print(x, my_variable)
 
 You can also do multiple assignments in one line.
 
-```python
+```{code-cell} python
 x,y,z = 1.0, 2.0, 3.0
 
 a = b = c = 1
@@ -254,20 +253,20 @@ a = b = c = 1
 
 Although not explicitly specified, a variable does have a type associated (implicitly) with it. The type is derived from the value that was assigned to it.
 
-```python
+```{code-cell} python
 type(x)
 ```
 
 If we assign a new value to a variable, its type can change.
 
-```python
+```{code-cell} python
 x = 1
 type(x)
 ```
 
 If we try to use a variable that has not yet been defined we get a `NameError`:
 
-```python
+```{code-cell} python
 print(yy)
 ```
 
@@ -277,19 +276,19 @@ print(yy)
 + Floats
 + Complex
 
-```python
+```{code-cell} python
 # integers
 x = 1
 type(x)
 ```
 
-```python
+```{code-cell} python
 # float
 x = 1.0
 type(x)
 ```
 
-```python
+```{code-cell} python
 # boolean
 b1 = True
 b2 = False
@@ -297,7 +296,7 @@ b2 = False
 type(b1)
 ```
 
-```python
+```{code-cell} python
 # complex numbers: note the use of `j` to specify the imaginary part
 x = 1.0 - 1.0j
 print(type(x))
@@ -308,7 +307,7 @@ print(x.real, x.imag)
 #### Type utility functions
 You cna check if a variable is of a certain type:
 
-```python
+```{code-cell} python
 x = 1.0
 
 # check if the variable x is a float
@@ -320,7 +319,7 @@ print(type(x) is int)
 #### Type casting
 You can transform a variable's type into another by typecasting. 
 
-```python
+```{code-cell} python
 x = 1.5
 
 print(x, type(x))
@@ -330,13 +329,13 @@ x = int(x)
 print(x, type(x))
 ```
 
-```python
+```{code-cell} python
 z = complex(x)
 
 print(z, type(z))
 ```
 
-```python
+```{code-cell} python
 x = float(z)
 ```
 
@@ -357,20 +356,20 @@ Most operators and comparisons in Python work as one would expect:
 
 
 
-```python
+```{code-cell} python
 1 + 2, 1 - 2, 1 * 2, 1 / 2
 ```
 
-```python
+```{code-cell} python
 1.0 + 2.0, 1.0 - 2.0, 1.0 * 2.0, 1.0 / 2.0
 ```
 
-```python
+```{code-cell} python
 # Integer division of float numbers
 3.0 // 2.0
 ```
 
-```python
+```{code-cell} python
 # Note! The power operators in python isn't ^, but **
 2**3
 ```
@@ -386,7 +385,7 @@ to be more specific, `1/2 = 0.5` (`float`) in Python 3.x, and `1/2 = 0` (`int`) 
 ```{embed} #ex_1-3
 ```
 
-```python
+```{code-cell} python
 import numpy as np
 
 a = np.array([1,2,3,4])
@@ -400,19 +399,19 @@ print(1//a)
 ### Boolean Operators 
 The boolean operators are spelled out as the words `and`, `not`, `or`. 
 
-```python
+```{code-cell} python
 True and True
 ```
 
-```python
+```{code-cell} python
 True and False
 ```
 
-```python
+```{code-cell} python
 not False
 ```
 
-```python
+```{code-cell} python
 True or False
 ```
 
@@ -423,24 +422,24 @@ The result of these expressions is always "True" or "False"
 
 
 
-```python
+```{code-cell} python
 2 > 1, 2 < 1
 ```
 
-```python
+```{code-cell} python
 2 > 2, 2 < 2
 ```
 
-```python
+```{code-cell} python
 2 >= 2, 2 <= 2
 ```
 
-```python
+```{code-cell} python
 # equality
 [1,2] == [1,2]
 ```
 
-```python
+```{code-cell} python
 # objects identical?
 l1 = l2 = [1,2]
 
@@ -454,17 +453,17 @@ These types include a sequence of values that are indexed: assigned to a locatio
 ### Strings
 Strings are the variable type that is used for storing text. 
 
-```python
+```{code-cell} python
 s = "Hello world"
 type(s)
 ```
 
-```python
+```{code-cell} python
 # length of the string: the number of characters
 len(s)
 ```
 
-```python
+```{code-cell} python
 # replace a substring in a string with something else
 s2 = s.replace("world", "test")
 print(s2)
@@ -472,7 +471,7 @@ print(s2)
 
 We can index a character in a string using `[]`:
 
-```python
+```{code-cell} python
 s[1]
 ```
 
@@ -482,7 +481,7 @@ The first element of any sequence is accessed by the 0th index.
 ``` 
 We can extract a part of a string using the syntax `[start:stop]`, which extracts characters between index `start` and `stop` -1 (the character at index `stop` is not included):
 
-```python
+```{code-cell} python
 print(s)
 print(s[0:5])
 print(s[4:5])
@@ -490,7 +489,7 @@ print(s[4:5])
 
 If we omit either (or both) of `start` or `stop` from `[start:stop]`, the default is the beginning and the end of the string, respectively:
 
-```python
+```{code-cell} python
 print(s[:5]) # all but last 5 
 print(s[6:]) # first 6
 print(s[:])  # entire string
@@ -498,7 +497,7 @@ print(s[:])  # entire string
 
 We can also define the step size using the syntax `[start:end:step]` (the default value for `step` is 1, as we saw above):
 
-```python
+```{code-cell} python
 print(s[::1]) # every character
 print(s[::2]) # every other character
 ```
@@ -510,34 +509,34 @@ Formatting output values into strings allows you to decide the output precision.
 
 You can read more about specific formatting use cases and examples here: https://pyformat.info/
 
-```python
+```{code-cell} python
  # The comma-separated print statement concatenates strings with a space
 print("str1", "str2", "str3") 
 ```
 
-```python
+```{code-cell} python
 # The print statement converts all arguments to strings
 print("str1", 1.0, False, -1j)  
 ```
 
-```python
+```{code-cell} python
 # strings added with + are concatenated without space
 print("str1" + "str2" + "str3") 
 ```
 
-```python
+```{code-cell} python
 # we can use C-style string formatting to input values into a string
 print("value = %f meters" % 1.0)       
 ```
 
-```python
+```{code-cell} python
 # this formatting creates a string with a 2 digit float and a single digit decimal
 s2 = "value1 = %.2f and value2 = %d" % (3.1415, 1.5)
 
 print(s2)
 ```
 
-```python
+```{code-cell} python
 # alternative ("new"), more intuitive way of formatting a string 
 s3 = 'value1 = {0}, value2 = {1}'.format(3.1415, 1.5)
 
@@ -546,14 +545,14 @@ s3 = 'value1 = {0}, value2 = {1}'.format(3.1415, 1.5)
 print(s3)
 ```
 
-```python
+```{code-cell} python
 # and you can also specify the format as before
 # this time a two digit float and 6 digit float
 s4 = 'value1 = {0:.2f}, value2 = {1:.6f}'.format(3.1415, 1.5)
 print(s4)
 ```
 
-```python
+```{code-cell} python
 # have a look at the many options to work with strings
 dir(s)
 ```
@@ -563,7 +562,7 @@ Lists are very similar to strings, except that each element can be of any type.
 
 The syntax for creating lists in Python is `[...]`:
 
-```python
+```{code-cell} python
 l = [1, 'a', 1.0, 1-1j]
 
 print(l)
@@ -582,7 +581,7 @@ Notice how `type()` returns the type of the highest level object, not the types 
 
 We can use the same slicing techniques to manipulate lists as we could use on strings:
 
-```python
+```{code-cell} python
 print(l)
 print(l[1:3])
 print(l[::2])
@@ -592,7 +591,7 @@ print(l[::2])
 Reminder: Indexing starts at 0!
 ```
 
-```python
+```{code-cell} python
 print('The first element is: ' , l[0])
 print('The last element is: {}'.format(l[-1]))
 print('The fourth element is %i' % l[3])
@@ -603,7 +602,7 @@ print('A list of just the last two elements:', l[-2:])
 Since lists are also a type, python lists can be inhomogeneous and arbitrarily nested:
 
 
-```python
+```{code-cell} python
 nested_list = [1, [2, [3, [4, [5]]]]]
 
 nested_list
@@ -615,7 +614,7 @@ There are a number of convenient functions for generating lists of various types
 In Python 3, `range` generates an iterator, which can be converted to a list using `list(...)`.  
 (It has no effect in python 2)
 
-```python
+```{code-cell} python
 start = 10
 stop = 30
 step = 2
@@ -629,7 +628,7 @@ print(list(range(-10, 10)))
 
 Create a list of the individual characters in a string by type-casting.
 
-```python
+```{code-cell} python
 s = 'Hello world'
 s2 = list(s)
 
@@ -638,7 +637,7 @@ print(s2)
 
 Lists may also be sorted (in this case, alphabetically)
 
-```python
+```{code-cell} python
 s2.sort()
 
 print(s2)
@@ -647,7 +646,7 @@ print(s2)
 #### List operations
 Adding, inserting, modifying, and removing elements from lists
 
-```python
+```{code-cell} python
 # create a new empty list
 l = []
 
@@ -661,7 +660,7 @@ print(l)
 
 We can modify lists by assigning new values to elements in the list. In technical jargon, lists are *mutable*.
 
-```python
+```{code-cell} python
 l[1] = "p"
 l[2] = "p"
 
@@ -674,7 +673,7 @@ print(l)
 
 Insert an element at an specific index using `insert`
 
-```python
+```{code-cell} python
 l.insert(0, "i")
 l.insert(1, "n")
 l.insert(2, "s")
@@ -687,7 +686,7 @@ print(l)
 
 Remove first element with specific value using 'remove'
 
-```python
+```{code-cell} python
 l.remove("A")
 
 print(l)
@@ -695,7 +694,7 @@ print(l)
 
 Remove an element at a specific location using `del`:
 
-```python
+```{code-cell} python
 del l[7]
 del l[6]
 
@@ -706,7 +705,7 @@ print(l)
 Mutable structures can also be dangerous if you are not careful about assignments. Typically, we can copy values of a variable into a different variable and operations on the copy will not affect the original, EXCEPT if you have a mutable structure (list, dictionary, etc.)
 ```
 
-```python
+```{code-cell} python
 a = 1
 b = a
 b += 1 #adding 1 to the previous value of b
@@ -714,7 +713,7 @@ print("a =",a)
 print("b =",b)
 ```
 
-```python
+```{code-cell} python
 l1 = [1,2,3,4]
 l2 = l1
 print(l1,l2)
@@ -732,13 +731,13 @@ With the numpy library, you can access operations for data structures called *ar
 
 Numpy has a large library of functions with custom operations on arrays.
 
-```python
+```{code-cell} python
 import numpy as np
 ```
 
 You can convert between lists and arrays fairly simply:
 
-```python
+```{code-cell} python
 l1 = [1,2,3,4]
 a1 = np.array(l1)
 ```
@@ -749,12 +748,12 @@ Notably:
 + Arrays behave like vectors during multiplication, operations are elementwise, unlike lists.
 + Array operations are typically much faster than lists due to native vectorization in numpy.
 
-```python
+```{code-cell} python
 print(2*l1)
 print(2*a1)
 ```
 
-```python
+```{code-cell} python
 print(l1 + [4])
 print(a1 + 4)
 ```
@@ -764,7 +763,7 @@ Tuples are like lists, except that they cannot be modified once created, that is
 
 In Python, tuples are created using the syntax `(..., ..., ...)`, or even `..., ...`:
 
-```python
+```{code-cell} python
 point = (10, 20)
 
 print(point, type(point))
@@ -776,7 +775,7 @@ print(point, type(point))
 
 We can "unpack" a tuple by assigning it to a comma-separated list of variables. (This is nice to keep in mind as many library functions also return tuples)
 
-```python
+```{code-cell} python
 x, y = point
 
 print("x =", x)
@@ -785,7 +784,7 @@ print("y =", y)
 
 We can ignore a given value if not needed
 
-```python
+```{code-cell} python
 mytuple = (1,2,3)
 x, _, y = mytuple
 print("x =", x)
@@ -794,7 +793,7 @@ print("y =", y)
 
 or a few
 
-```python
+```{code-cell} python
 mytuple = (1,2,3,4,5)
 x, *_, y = mytuple
 print("x =", x)
@@ -803,7 +802,7 @@ print("y =", y)
 
 Because tuples are **immutable**, if we try to assign a new value to an element in a tuple we get an error:
 
-```python
+```{code-cell} python
 point[0] = 20
 ```
 
@@ -814,7 +813,7 @@ Dictionaries are also like lists, except that each element is a key-value pair a
 The (optional) trailing comma below doesn't really do anything
 ```
 
-```python
+```{code-cell} python
 params = {"parameter1" : 1.0,
           "parameter2" : 2.0,
           "parameter3" : 3.0,}
@@ -825,7 +824,7 @@ print(params)
 
 You can access a given value by indexing by it's original key:
 
-```python
+```{code-cell} python
 print( params["parameter1"] )
 print("parameter2 = " + str(params["parameter2"]))
 print("parameter3 = " + str(params["parameter3"]))
@@ -833,7 +832,7 @@ print("parameter3 = " + str(params["parameter3"]))
 
 And reassign values or add new entries by key:
 
-```python
+```{code-cell} python
 params["parameter1"] = "A"
 params["parameter2"] = "B"
 
@@ -853,7 +852,7 @@ Indents are a vital part of how python parses control statements, so extra or no
 ### Conditional statements: if, elif, else
 The Python syntax for conditional execution of code uses the keywords `if`, `elif` (else if), `else`
 
-```python
+```{code-cell} python
 statement1 = False
 statement2 = False
 
@@ -893,7 +892,7 @@ But in Python, the extent of a code block is defined by the indentation level (u
 
 #### If statement examples:
 
-```python
+```{code-cell} python
 statement1 = statement2 = True
 
 if statement1:
@@ -901,14 +900,14 @@ if statement1:
         print("both statement1 and statement2 are True")
 ```
 
-```python
+```{code-cell} python
 # Bad indentation!
 if statement1:
     if statement2:
     print("both statement1 and statement2 are True")  # this line is not properly indented
 ```
 
-```python
+```{code-cell} python
 statement1 = False 
 
 if statement1:
@@ -917,14 +916,14 @@ if statement1:
     print("still inside the if block")
 ```
 
-```python
+```{code-cell} python
 if statement1:
     print("printed if statement1 is True")
     
 print("now outside the if block")
 ```
 
-```python
+```{code-cell} python
 a = 2.
 b = 3.
 if a > 0:
@@ -942,7 +941,7 @@ In Python, loops can be programmed in a number of different ways. The most commo
 
 #### `for` loops
 
-```python
+```{code-cell} python
 for x in [1,2,3]:
     print(x)
 ```
@@ -956,7 +955,7 @@ The `for` loop iterates over the elements of the supplied list, and executes the
 ```
 
 
-```python
+```{code-cell} python
 for x in range(4): # by default range start at 0
     print(x)
 
@@ -966,7 +965,7 @@ for x in range(-3,3):
 
 Notably, you can iterate over the indices of a list by making a range that matches the length of the list or just iterate over the values of the list:
 
-```python
+```{code-cell} python
 word_list = ["scientific", "computing", "with", "python"]
 
 for i in range(len(word_list)):
@@ -978,7 +977,7 @@ for word in word_list:
 
 Or keep track of both automatically using `enumerate`:
 
-```python
+```{code-cell} python
 for i, word in enumerate(word_list):
     print(i, word)
 
@@ -988,7 +987,7 @@ for idx, x in enumerate(range(-3,3)):
 
 You can look at dictionary contents in a few different ways, including looping over the items.
 
-```python
+```{code-cell} python
 print('Entire dictionary', params)
 print('Tuples of paired keys and values:', params.items())
 print('Iterating over keys and values:')
@@ -1003,7 +1002,7 @@ for this_key in params.keys():
 Creating lists using one line `for` loops. 
 List comprehension is a convenient and compact way to create lists from iterative operations.
 
-```python
+```{code-cell} python
 print("Squares of all numbers between 0 and 4")
 l1 = [x**2 for x in range(0,5)] 
 print(l1)
@@ -1018,7 +1017,7 @@ print(l2)
 
 Here, we iterate for as long as i is less than 5. In this case, each loop increases the value of i by 1. 
 
-```python
+```{code-cell} python
 i = 0
 
 while i < 5:
@@ -1056,7 +1055,7 @@ You can control loop iterations or exits with `pass` or `break`, which you can i
 For example, let's say I have a mixed type list and want to perform operations on only the numbers.
 
 
-```python
+```{code-cell} python
 mylist = ["jenny", 8, "i",6, "got", 7, 5, "your",3,  0, "number", 9]
 jennys_number = []
 
@@ -1071,7 +1070,7 @@ print(jennys_number)
 
 Now let's say I know that beyond a certain value, there are no numbers I want (so I want to stop my loop!)
 
-```python
+```{code-cell} python
 mylist = ["jenny", 8, "i",6, "got", 7, 5, "your",3,  0, "number", 9, "JENNY!", "DO", "NOT", 'change',"your", 867,5309,'number!']
 jennys_number = []
 
@@ -1092,12 +1091,12 @@ A function in Python is defined using the keyword `def`, followed by a function 
 
 Functions must be defined before they are used and do not run until they are called. 
 
-```python
+```{code-cell} python
 def func0():   
     print("test")
 ```
 
-```python
+```{code-cell} python
 func0()
 ```
 
@@ -1105,7 +1104,7 @@ Optional, but highly recommended, we can define a so called "docstring", which i
 
 Doc strings are what python returns for functions when `help` is called. 
 
-```python
+```{code-cell} python
 def func1(s):
     """
     Input: 's', a string
@@ -1121,7 +1120,7 @@ func1("test")
 
 Functions that return a value use the `return` keyword, which can be assigned to a variable like any other values.
 
-```python
+```{code-cell} python
 def square(x):
     """
     Return the square of x.
@@ -1134,7 +1133,7 @@ print(y)
 
 We can return multiple values from a function using tuples (see above):
 
-```python
+```{code-cell} python
 def powers(x):
     """
     Return the square, cube, and fourth power of x.
@@ -1142,11 +1141,11 @@ def powers(x):
     return x ** 2, x ** 3, x ** 4
 ```
 
-```python
+```{code-cell} python
 powers(3)
 ```
 
-```python
+```{code-cell} python
 x2, x3, x4 = powers(3)
 
 print(x3)
@@ -1161,7 +1160,7 @@ print(x3)
 ### Function arguments: args and kwargs
 In a definition of a function, we can require inputs (args: arguments) or specify default values (optional kwargs: optional keyword arguments).
 
-```python
+```{code-cell} python
 def myfunc(x, p=2, debug=False):
     if debug:
         print("evaluating myfunc for x = " + str(x) + " using exponent p = " + str(p))
@@ -1172,17 +1171,17 @@ Here both `p` and `debug` are kwargs.
 
 For example, if we don't provide a value of the keyword arguments when calling the the function `myfunc` it defaults to the value provided in the function definition.
 
-```python
+```{code-cell} python
 myfunc(5)
 ```
 
-```python
+```{code-cell} python
 myfunc(5, debug=True)
 ```
 
 If we explicitly list the name of the arguments in the function call, including the required arguments, the arguments do not need to come in the same order as in the function definition, but we always have to provide at least the required "positional" argument.
 
-```python
+```{code-cell} python
 myfunc(p=3, debug=True, x=7)
 
 myfunc()
@@ -1190,7 +1189,7 @@ myfunc()
 
 Sometimes you might wish to write a function in which you don't initially know how many arguments the user will pass. In this case, you can use the special form `*args` and `**kwargs` to catch all arguments that are passed. Here is an example:
 
-```python
+```{code-cell} python
 def catch_all(*args, **kwargs):
     print("args =", args)
     print("kwargs = ", kwargs)
@@ -1204,7 +1203,7 @@ Here it is not the names args and kwargs that are important, but the * character
 
 In fact, this syntax can be used not only with the function definition, but with the function call as well!
 
-```python
+```{code-cell} python
 inputs = (1, 2, 3)
 keywords = {'pi': 3.14}
 
@@ -1213,7 +1212,7 @@ catch_all(*inputs, **keywords)
 
 You can use kwargs to control how your function behaves overall, depending on what inputs are used. This is typically referred to as using a "flag". In the example below, the "add" keyword is a "flag" that controls the output of the function, adding the value of the "add" keyword to the computation.
 
-```python
+```{code-cell} python
 def f3(x, p=2, **kwargs):
     print(kwargs.keys(), kwargs.values())
     if 'add' in kwargs.keys():
@@ -1231,7 +1230,7 @@ print(f3(2,add=6,ktest='somethingelse'))
 In Python we can also create unnamed functions, using the `lambda` keyword. 
 These are used as one line (often temporary) functions
 
-```python
+```{code-cell} python
 f1 = lambda x: x**2
     
 # is equivalent to 
@@ -1244,7 +1243,7 @@ f1(2), f2(2)
 
 Like a normal function defined with def, lambda functions support all the different ways of passing arguments.
 
-```python
+```{code-cell} python
 f1 = lambda x, p=2: x**p
     
 # is equivalent to 
@@ -1258,7 +1257,7 @@ f1(2,p=3), f2(2,p=3)
 
 This technique is useful for example when we want to pass a simple function as an argument to another function, like in the `map` function, a built-in python function which "maps" a set of iterator values into a function that takes a single input.
 
-```python
+```{code-cell} python
 for i in map(lambda x: x**2, range(-3,4)):
     print(i)
 
@@ -1294,7 +1293,7 @@ There are a few rules for classes:
     * There are many more, see http://docs.python.org/2/reference/datamodel.html#special-method-names
 
 
-```python
+```{code-cell} python
 class Point:
     """
     Simple class for representing a point in a Cartesian coordinate system.
@@ -1321,7 +1320,7 @@ class Point:
 
 To create a new instance of a class (or initialize a new class object), you call the class by it's name and use the arguments in the `__init__` command:
 
-```python
+```{code-cell} python
 p1 = Point(0, 0) # this will invoke the __init__ method in the Point class
 
 print(p1)         # this will invoke the __str__ method
@@ -1333,7 +1332,7 @@ print('y = ' + str(p1.y))
 
 To invoke a class method of the class instance `Point`:
 
-```python
+```{code-cell} python
 p2 = Point(1, 1)
 
 p1.translate(0.25, 1.5)
@@ -1351,7 +1350,7 @@ What happens within a function or class operates in the ** local scope ** and is
 ```
 
 
-```python
+```{code-cell} python
 help(Point)
 
 ```
@@ -1374,7 +1373,7 @@ Note below we use the `%%writefile` command: this is not Python but rather an IP
 You can also load the contents of any python script into a notebook cell directly using the magic `%load` command, but this behaves differently from the module architecture which we are exploring here.
 ```
 
-```python
+```{code-cell} python
 %%writefile mymodule.py
 """
 Example of a python module. Contains a variable called my_variable,
@@ -1412,7 +1411,7 @@ We can import the module `mymodule` into our Python program using `import`. By d
 (It is typically good practice to put all the imports at the top of your code.)
 
 
-```python
+```{code-cell} python
 import mymodule
 
 print(mymodule.my_variable)
@@ -1428,14 +1427,14 @@ my_class.get_variable()
 If we make changes to the code in `mymodule.py`, we need to reload it. Usually through restarting your kernel or with custom reload.
 ```
 
-```python
+```{code-cell} python
 #reload(mymodule)  works only in python 2
 
 import imp   # in python3
 imp.reload(mymodule)
 ```
 
-```python
+```{code-cell} python
 help(mymodule)
 ```
 
@@ -1452,22 +1451,22 @@ If you've done any coding in Python, you've likely come across some common runti
 + IndexError
 
 
-```python
+```{code-cell} python
 # if you try to reference an undefined variable
 print(Q)
 ```
 
-```python
+```{code-cell} python
 # if you try an operation that's not defined:
 1 + 'abc'
 ```
 
-```python
+```{code-cell} python
 # trying to compute a mathematically ill-defined result:
 2 / 0
 ```
 
-```python
+```{code-cell} python
 # trying to access a sequence element that doesn't exist:
 L = [1, 2, 3]
 L[1000]
@@ -1476,11 +1475,11 @@ L[1000]
 ### Raising your own Errors
 You can generate your own exception using the `raise` statement which takes an argument that must be an instance of the class `BaseException` or a class derived from it (https://docs.python.org/3/library/exceptions.html). 
 
-```python
+```{code-cell} python
 raise Exception("description of the error")
 ```
 
-```python
+```{code-cell} python
 raise ValueError("parameter must be non-zero")
 ```
 
@@ -1506,7 +1505,7 @@ To gracefully catch errors that are generated by functions and class methods, or
 ```
 For example:
 
-```python
+```{code-cell} python
 try:
     print("test")
     # generate an error: the variable test is not defined here
@@ -1518,7 +1517,7 @@ except:
 To get information about the error, we can access the `Exception` class instance that describes the exception by using for example:
 `except Exception as e:`
 
-```python
+```{code-cell} python
 try:
     print("test")
     # generate an error: the variable test is not defined
@@ -1529,7 +1528,7 @@ except Exception as e:
 
 Let's say we're trying to create a perfect division function that can deal with anything! We want a function that won't give us an undefined value when we divide by 0, which would ordinarily spawn a `ZeroDivisionError`
 
-```python
+```{code-cell} python
 def safe_divide(a, b):
     try:
         return a / b
@@ -1543,13 +1542,13 @@ There is a subtle problem with this code, though: what happens when another type
 
  For example, this is probably not the behavior we intended:
 
-```python
+```{code-cell} python
 safe_divide (1, '2')
 ```
 
 Dividing an integer and a string raises a TypeError, which our over-zealous code caught and assumed was a ZeroDivisionError! For this reason, it's nearly always a better idea to catch exceptions explicitly. We're now catching zero-division errors only, and letting all other errors pass through un-modified.
 
-```python
+```{code-cell} python
 def safe_divide(a, b):
     try:
         return a / b
