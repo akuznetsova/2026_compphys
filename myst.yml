@@ -41,9 +41,9 @@ project:
               hidden: True
             - file: content/lessons/1b_pythonintro.md
               hidden: True
-            - file: content/in-class/1b_exercises.ipynb
+            - file: content/in-class/1a_exercises.ipynb
               hidden: True
-            - file: content/in-class/1b_exercises.md
+            - file: content/in-class/1a_exercises.md
               hidden: True
             - file: content/lessons/1_qs.md
               hidden: True
