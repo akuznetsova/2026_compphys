@@ -846,7 +846,6 @@ else:
 ```
 
 ```{note}
-
 Compare to the equivalent C code:
 ````{code-block} C
     if (statement1)
@@ -867,9 +866,7 @@ In C, blocks are defined by the enclosing curly brakets `{` and `}`. And the lev
 But in Python, the extent of a code block is defined by the indentation level (usually a tab or say four white spaces). This means that we have to be careful to indent our code correctly, or else we will get syntax errors. 
 ```
 
-
-
-#### If statement examples:
+Some `if` statement examples:
 
 ```{code-cell} python
 statement1 = statement2 = True
@@ -1014,7 +1011,6 @@ The  `print("done")` statement is not part of the `while` loop body because of t
 
 ```{warning}
 If your iterator never reaches the condition, the program will loop infinitely. For example (don't run this block):
-
 ````{code-block} python
 i = 0
 while i < 5:
@@ -1024,7 +1020,6 @@ while i < 5:
     
 print("done")
 ````
-
 ```
 
 

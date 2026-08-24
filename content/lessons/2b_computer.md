@@ -1,3 +1,15 @@
+---
+exports:
+  - format: pdf
+    template: lapreprint-typst
+    id: notes-2b
+downloads:
+  - id: notes-2b
+    title: PDF notes
+  - file: 2b_computer.md
+    title: Source file
+---
+
 # Talking to the Computer
 > "Computers are incredibly fast, accurate and stupid. On the other hand, a well trained operator as compared with a computer is incredibly slow, inaccurate and brilliant."
 -- [not Albert Einstein](https://www.techdirt.com/2021/09/29/misquoting-einstein-is-fast-stupid-not-accurate/)
@@ -79,7 +91,7 @@ You can alter your environment in a file (typically your `.bashrc` or `.zshrc` f
 
 For example, you can add to the list in your `PATH` or define nicknames for commands or paths. When you build programs from source (i.e. compile an executable rather than download an installer from the web) you will often have to manually append your `PATH` variable, as well as know the paths of any external libraries the program will need to access. 
 
-```{embed} $ex_2-6
+```{embed} #ex_2-6
 ```
 
 ### The Python Environment

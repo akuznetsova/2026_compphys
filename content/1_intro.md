@@ -9,9 +9,13 @@ The website is re-built each time an update is pushed to the github repository.
 
 If something is missing that you were expecting to see, try reloading the page. If that doesn't work, please let me know.
 ```
-Please see the course syllabus for a more comprehensive description of the course policies, deadlines, and assignments. 
+Please see the [course syllabus](./syllabus.pdf) for a more comprehensive description of the course policies, deadlines, and assignments. 
+
 In general, the course content for every week will be updated as the semester progresses.   
-You will be able to see what we cover in class by navigating to the "Course Schedule" on the sidebar and selecting the relevant week. Each week will include the lecture content to follow along with, the in-class exercises to turn in every week, and the guidelines and skeleton code provided for the problem sets under "Problem Sets".
+
+You will be able to see what we cover in class by navigating to the "[Course Schedule](./3_schedule.md)" on the sidebar and selecting the relevant week. 
+
+Each week will include the lecture content to follow along with, the in-class exercises to turn in every week, and the guidelines and skeleton code provided for the problem sets under "[Problem Sets](./4_psets.md)".
 
 ```{note}
 Assigned work should be turned in and uploaded onto the relevant assignment submission location on HuskyCT.
