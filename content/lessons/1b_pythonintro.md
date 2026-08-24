@@ -21,11 +21,13 @@ exports:
 downloads:
   - id: notes-1b
     title: PDF notes
-  - file: 1b_pythonintro.ipynb
+  - file: 1b_pythonintro.md
     title: Source file
+  - file: 1b_pythonintro.ipynb
+    title: Notebook
 ---
 
-<!-- #region -->
+
 # Brief Tour of Python
 This lesson has been adapted from J.R. Johansson's Scientific Python Lectures. 
 The latest version of this [IPython notebook](http://ipython.org/notebook.html) lecture is available at [http://github.com/jrjohansson/scientific-python-lectures](http://github.com/jrjohansson/scientific-python-lectures).
@@ -76,7 +78,7 @@ People can develop and run python code as scripts or program files (ending in ``
 In class, we'll be using interactive jupyter notebooks to get instant feedback. 
 These are good for debugging in real time and are a popular development environment. 
 For problem sets, you will be asked to turn in scripts. (You are more than welcome to develop within a notebook and save your final output into a script)
-<!-- #endregion -->
+
 
 ### 1. Python Program Files
 
@@ -1057,12 +1059,12 @@ print("done")
 
 ```
 
-<!-- #region -->
+
 You can control loop iterations or exits with `pass` or `break`, which you can invoke with conditions.
 
 
 For example, let's say I have a mixed type list and want to perform operations on only the numbers.
-<!-- #endregion -->
+
 
 ```python
 mylist = ["jenny", 8, "i",6, "got", 7, 5, "your",3,  0, "number", 9]
@@ -1279,7 +1281,7 @@ list(map(lambda x: x**2, range(-3,4)))
 ```{embed} #icc_1-2
 ```
 
-<!-- #region -->
+
 ## Classes
 
 Classes are the key features of object-oriented programming (OOP). You may notice that everything we've discussed (variables, lists, dictionaries, tuples, etc.) are all types of objects that behave according to their own set of rules and have operations that can be used on them. 
@@ -1300,7 +1302,7 @@ There are a few rules for classes:
     * `__init__`: The name of the method that is invoked when the object is first created (usually by being called).
     * `__str__` : A method that is invoked when a simple string representation of the class is needed, as for example when printed.
     * There are many more, see http://docs.python.org/2/reference/datamodel.html#special-method-names
-<!-- #endregion -->
+
 
 ```python
 class Point:
