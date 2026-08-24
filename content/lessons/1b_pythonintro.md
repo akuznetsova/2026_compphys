@@ -6,8 +6,6 @@ exports:
 downloads:
   - id: notes-1b
     title: PDF notes
-  - file: 1b_pythonintro.md
-    title: Source file
   - file: 1b_pythonintro.ipynb
     title: Notebook
 jupyter:
