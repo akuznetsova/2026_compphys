@@ -19,6 +19,7 @@ project:
   plugins:
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/experiment/experiment.mjs
     - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updatedv1.1/page-last-updated.mjs
+    - https://github.com/jupyter-book/myst-plugins/blob/main/plugins/exercise-admonition-pdf/exercise-admonition-pdf.mjs
   
   # exports and downloads
   
