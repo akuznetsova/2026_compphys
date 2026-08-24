@@ -24,8 +24,7 @@ The other notebooks in this lecture series are indexed at [http://jrjohansson.gi
 + This notebook may be run and viewed directly online to be used as a reference for the course.
 + In class, it is recommended that you follow along and execute the code as we discuss the corresponding material. You can download a copy of the notebook
 to your computer and make modifications for a copy of your own interactive lecture notes. 
-+ Sections marked "In-Class Coding Exercises" are part of the [weekly in-class assignment](../in-class/
-) due at the end of the week as an `.ipynb` file on HuskyCT.
++ Sections marked "In-Class Coding Exercises" are part of the [weekly in-class assignment](../in-class/1a_exercises.ipynb) due at the end of the week as an `.ipynb` file on HuskyCT.
 
 ## Why Python?
 + Very high-level language:
