@@ -380,8 +380,8 @@ This is not true in Python 2.x, where the result of `/` is always an integer if 
 to be more specific, `1/2 = 0.5` (`float`) in Python 3.x, and `1/2 = 0` (`int`) in Python 2.x (but `1.0/2 = 0.5` in Python 2.x).
 ``` 
 
-
 :question:
+
 ```{embed} #ex_1-3
 ```
 
@@ -869,7 +869,7 @@ else:
 ```{note}
 
 Compare to the equivalent C code:
-
+````{code-block} C
     if (statement1)
     {
         printf("statement1 is True\n");
@@ -882,7 +882,7 @@ Compare to the equivalent C code:
     {
         printf("statement1 and statement2 are False\n");
     }
-
+````
 In C, blocks are defined by the enclosing curly brakets `{` and `}`. And the level of indentation (white space before the code statements) does not matter (completely optional). 
 
 But in Python, the extent of a code block is defined by the indentation level (usually a tab or say four white spaces). This means that we have to be careful to indent our code correctly, or else we will get syntax errors. 
