@@ -23,7 +23,7 @@ You can grab a template for this week's in-class exercises [here](../in-class/1a
 ### [Next week](./2_setup.md): Visualization and Other Tools
 - [ ] Read Newman Ch. 3
 - [ ] Read [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) by Rougier et al.
-- [ ] Read note @wsl for Thursday's class
+- [ ] Read note @wsl for next week
 
 
 

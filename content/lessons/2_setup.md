@@ -11,7 +11,7 @@ If you have a Windows laptop, please make sure you have set up the [Windows Subs
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (09-08): Visualization with Matplotlib                        | Newman Ch. 3, [Rougier et al.](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable)         | 
+| T (09-08): Visualization with Matplotlib                        | Newman Ch. 3, https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable         | 
 | R (09-10): Talking to the Computer                              |      | 
 :::
 
