@@ -39,7 +39,7 @@ project:
           children:
             - file: content/lessons/1a_intro.md
               hidden: True
-            - file: content/lessons/1b_pythonintro.ipynb
+            - file: content/lessons/1b_pythonintro.md
               hidden: True
             - file: content/in-class/1b_exercises.ipynb
               hidden: True
