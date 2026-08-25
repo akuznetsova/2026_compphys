@@ -1,9 +1,21 @@
+---
+exports:
+  - format: pdf
+    template: lapreprint-typst
+    id: notes-schedule
+downloads:
+  - id: notes-schedule
+    title: PDF 
+  - file: syllabus.pdf
+    title: Course Syllabus
+---
+
 (schedule)=
 # Course Schedule
 The tentative topical schedule is outlined in the table below. 
 
 ```{note}
-For a complete set of deadlines and policies please refer to the course syllabus.
+For a complete set of deadlines and policies please refer to the [course syllabus](./syllabus.pdf).
 ```
 You can find each week's materials: lectures, assigned readings, in-class exercises, and problem sets on the sidebar's drop-down list below. Clicking on the week number will take to you to the page with all the content for the week linked.
 

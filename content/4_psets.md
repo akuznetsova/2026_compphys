@@ -1,3 +1,14 @@
+---
+exports:
+  - format: pdf
+    template: lapreprint-typst
+    id: notes-psets
+downloads:
+  - id: notes-psets
+    title: PDF 
+  - file: syllabus.pdf
+    title: Course Syllabus
+---
 (problem-sets)=
 # Problem Sets 
 
