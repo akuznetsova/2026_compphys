@@ -1,8 +1,19 @@
+---
+exports:
+  - format: pdf
+    template: lapreprint-typst
+    id: notes-resources
+downloads:
+  - id: notes-resources
+    title: PDF notes
+---
+
 (cheat-sheet)=
 # Resources
 
 Below is a set of links to external resources that may be useful for various aspects of this course. They are all freely available and accessible online. 
 There is a lot of coding content on the web, of varying levels of quality. Googling around can yield answers, but often not appropriate context or explanation.
+These resources are provided as more self-contained or curated references. 
 
 ## General Python
 + [Think Python](https://allendowney.github.io/ThinkPython) by Allen Downey.
@@ -20,7 +31,7 @@ There is a lot of coding content on the web, of varying levels of quality. Googl
 + [Google's Python Class](https://developers.google.com/edu/python) by Nick Parlante.
     - Materials from a two-day workshop at Google for Python programming. Geared towards those with some prior programming experience.
 + [Python for Scientific Computing](https://sbu-python-class.github.io/python-science/01-python/installing.html) by Michael Zingale
-    - Online course notes for Mike Zingale's scientific computing course.
+    - Online course notes for Mike Zingale's scientific computing course at Stonybrook.
 
 ## Unix and the Command line
 + [The Unix Shell](https://swcarpentry.github.io/shell-novice/index.html) by Software Carpentry.
@@ -39,4 +50,10 @@ There is a lot of coding content on the web, of varying levels of quality. Googl
 ## Misc.
 + [Project Euler](https://projecteuler.net/about)
     - A set of computational puzzles for practicing algorithmic thinking. (A bit pretentious.)
+
+```{note}
+If you'd like to recommend a resource you've found helpful, feel free to send it along!
+
+If a link is dead, please let me know. 
+```
 

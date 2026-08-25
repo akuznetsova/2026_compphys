@@ -18,7 +18,7 @@ You can grab a template for this week's in-class exercises [here](../in-class/1a
 ## Reminders
 [Problem Set 1](../psets/ps1.md) will be due next Wednesday September 9th by 11:59 PM.
 
-(Please, make sure you've read through the [problem set guidelines](../4_psets.md) before starting)
+Please, make sure you've read through the [problem set guidelines](../4_psets.md) before starting!
 
 ### [Next week](./2_setup.md): Visualization and Other Tools
 - [ ] Read Newman Ch. 3
