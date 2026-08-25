@@ -11,7 +11,9 @@ project:
   references:
     myst-guide: https://mystmd.org/guide
     jupyter: https://docs.jupyter.org/en/latest
-
+  static_files:
+    - /content/syllabus.pdf
+    - /content/psets/ps1.pdf
   date: ${BUILD_DATE} 
   github: https://github.com/akuznetsova/2026_compphys 
   edit_url: 
@@ -22,8 +24,6 @@ project:
     - https://github.com/jupyter-book/myst-plugins/blob/main/plugins/exercise-admonition-pdf/exercise-admonition-pdf.mjs
   
   # exports and downloads
-  
-
 
   # Jupyter Notebook configuration
   jupyter:

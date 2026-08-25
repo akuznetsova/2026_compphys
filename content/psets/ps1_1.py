@@ -12,6 +12,7 @@ result = madelung(L=0) # save your final result with your choice of L
 end = time.perf_counter()
 elapsed = end - start
 
+# c)
 print(result)
 print(f'Time taken: {elapsed:.6f} seconds')
 

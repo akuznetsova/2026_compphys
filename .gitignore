@@ -2,7 +2,7 @@ _build
 exports/
 _videos
 
-**.pdf
+
 **.mp4
 **.pptx
 
