@@ -1,5 +1,19 @@
+---
+exports:
+  - format: pdf
+    template: lapreprint-typst
+    id: ps1_code
+downloads:
+  - id: ps1_code
+    title: code PDF 
+  - file: ps1.pdf
+    title: PS1 PDF
+---
 # PS1: Tour of Python
-Due: 11:59 PM Wednesday September 9th on HuskyCT  
+Due: 11:59 PM Wednesday September 9th on HuskyCT
+
+[PS1 Questions](./ps1.pdf)
+
 + Submitted solutions are restricted to imports of external functions from standard built-in Python libraries (i.e. `math`, `time`, `os`, `sys`, etc.).
 
 ## 1.1 The Madelung Constant
@@ -26,3 +40,4 @@ Due: 11:59 PM Wednesday September 9th on HuskyCT
 ```{literalinclude} ps1_5.py
 :lineno-match:
 ``` 
+
