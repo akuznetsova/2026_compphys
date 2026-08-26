@@ -6,8 +6,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (09-01): Course Overview                                     |                  | 
-| R (09-03): Brief Python Tour                                   | Newman Ch. 2     | 
+| T (09-01): [Course Overview](./1a_intro.md)                    |                  | 
+| R (09-03): [Brief Python Tour](./1b_pythonintro.ipynb)         | Newman Ch. 2     | 
 :::
 
 
@@ -23,7 +23,7 @@ Please, make sure you've read through the [problem set guidelines](../4_psets.md
 ### [Next week](./2_setup.md): Visualization and Other Tools
 - [ ] Read Newman Ch. 3
 - [ ] Read [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) by Rougier et al.
-- [ ] Read note @wsl for next week
+- [ ] If you have a windows laptop, see note @wsl for next week
 
 
 
