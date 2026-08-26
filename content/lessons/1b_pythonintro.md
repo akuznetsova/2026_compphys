@@ -3,11 +3,6 @@ exports:
   - format: pdf
     template: lapreprint-typst
     id: notes-1b
-downloads:
-  - id: notes-1b
-    title: PDF notes
-  - file: 1b_pythonintro.ipynb
-    title: Notebook
 ---
 
 # Brief Tour of Python
