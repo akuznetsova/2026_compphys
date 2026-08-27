@@ -1,16 +1,16 @@
 # Week 11
 
-+ T (11-10): Monte Carlo Methods
-+ R (11-12): Monte Carlo Methods
+## Monte Carlo Methods
 
-## Readings
-### This week: Monte Carlo Methods
-- Newman Ch. 10
+:::{table} 
+:label: w11
+:align: center
+| Class                                                          | Pre-Reading      |
+| ---                                                            | ---              |
+| T (11-10): Monte Carlo                     |Newman Ch. 10     | 
+| R (11-12): Monte Carlo                              | Newman Ch. 10    | 
+:::
 
-
-
-### Next week: [Monte Carlo Methods](./12_setup.md)
-- Newman Ch. 10
 
 
 `````{tip}
@@ -18,9 +18,14 @@ Download the in-class exercises template [here](../in-class/11a_exercises.ipynb)
 `````
 
 ## Reminders 
-[PS7](../psets/ps6.md) is due **this Wednesday Nov. 11th**  at 11:59PM on HuskyCT.
+[PS6](../psets/ps6.md) is due **this Wednesday Nov. 11th**  at 11:59PM on HuskyCT.
 
 Final Project Abstract will be due next Wednesday Nov. 18th at 11:59PM on HuskyCT. 
 Please review your pitch feedback on HuskyCT. 
+
+### For [next week](./11_setup.md): Monte Carlo Methods
+- [ ] Read Newman Ch. 10
+
+
 
 

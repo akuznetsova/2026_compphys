@@ -13,6 +13,7 @@ project:
     jupyter: https://docs.jupyter.org/en/latest
   static_files:
     - /content/syllabus.pdf
+    - /content/lessons/landau.pdf
     - /content/psets/ps1.pdf
   date: ${BUILD_DATE} 
   github: https://github.com/akuznetsova/2026_compphys 
@@ -39,10 +40,10 @@ project:
         - file: content/lessons/1_setup.md          # dropdown menu
           children:
             - file: content/lessons/1a_intro.md
+              hidden: False
+            - file: content/lessons/1b_pythonintro.ipynb
               hidden: True
             - file: content/lessons/1b_pythonintro.md
-              hidden: True
-            - file: content/lessons/1b_pythonintro.ipynb
               hidden: True
             - file: content/in-class/1a_exercises.ipynb
               hidden: True
@@ -186,7 +187,6 @@ project:
         - file: content/psets/ps5.md
         - file: content/psets/ps6.md
         - file: content/psets/ps7.md
-        - file: content/psets/ps8.md
   abbreviations:
     JB2: Jupyter Book 2
     CI/CD: Continuous Integration/Continuous Deployment

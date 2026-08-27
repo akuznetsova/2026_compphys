@@ -32,13 +32,13 @@ You can find each week's materials: lectures, assigned readings, in-class exerci
 | [6](./lessons/6_setup.md)                 | ordinary diff. eqns. (ODEs) | Ch. 8.1-8.4                       | W: [PS4](./psets/ps4.md) due     |
 | [7](./lessons/7_setup.md)                 | ODEs: additional methods                        | Ch. 8.5,8.6                       | F: R&R (PS3/PS4)     |
 | [8](./lessons/8_setup.md)                 | partial diff. eqns. (PDES)  | Ch. 9                       | W: [PS5](./psets/ps5.md) due     |
-| [9](./lessons/9_setup.md)                 | PDEs                        | Ch. 9                       | W: pitch due, F: R&R (PS5)   |
-| [10](./lessons/10_setup.md) 		        | Fourier Transforms   	      | Ch. 7                       | W: [PS6](./psets/ps6.md) due     |
-| [11](./lessons/11_setup.md)                | Monte Carlo Methods         | Ch. 10                      | W: [PS7](./psets/ps7.md) due     |
-| [12](./lessons/12_setup.md)                | Monte Carlo Methods         | Ch. 10                      | W: abstract due, F: R&R (PS6/PS7)|
+| [9](./lessons/9_setup.md)                 | Fourier Transofrms                        | Ch. 7                       | W: pitch due,    |
+| [10](./lessons/10_setup.md) 		        | PDEs: additional methods   	      | Ch. 9                       |  F: R&R (PS5)    |
+| [11](./lessons/11_setup.md)                | Monte Carlo Methods         | Ch. 10                      | W: [PS6](./psets/ps6.md) due     |
+| [12](./lessons/12_setup.md)                | Monte Carlo Methods         | Ch. 10                      | W: abstract due, F: R&R (PS6)|
 | 13                | Thanksgiving Break          | -                           | **no class**   |
-| [14](./lessons/14_setup.md)                | selected topics             | -                           | W: [PS8](./psets/ps8.md) due     |
-| [15](./lessons/15_setup.md)                | final presentations         |                             | F: R&R (PS8) |
+| [14](./lessons/14_setup.md)                | selected topics             | -                           | W: [PS7](./psets/ps7.md) due     |
+| [15](./lessons/15_setup.md)                | final presentations         |                             | F: R&R (PS7) |
 | Finals            | **no final exam**           |                             | M: final projects due |     
 :::
 

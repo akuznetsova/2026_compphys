@@ -1,26 +1,28 @@
 # Week 9
 
-+ T (10-27): PDEs - Implicit and Spectral Methods
-+ R (10-29): PDEs - Crank-Nicholson
+##  Fourier Transforms
 
-## Readings
-### This week: PDEs - Implicit and Spectral methods
-- Newman Ch. 9.3 (by Tues.)
-
-
-
-### Next week: [Fourier Transforms](./10_setup.md)
-- Newman Ch. 7
+:::{table} 
+:label: w09
+:align: center
+| Class                                                          | Pre-Reading      |
+| ---                                                            | ---              |
+| T (10-27): FTs                      |Newman Ch. 7      | 
+| R (10-29): FTs                                 | Newman Ch. 7    | 
+:::
 
 
 `````{tip}
 Download the in-class exercises template [here](../in-class/9a_exercises.ipynb)
 `````
 
+
 ## Reminders 
 Final project pitch is due **this Wed. Oct. 28th** on HuskyCT.  
 
-The deadline to revise and resubmit problems from PS5 is this **Friday October 30th** at 11:59 PM.   
+The deadline to revise and resubmit problems from PS5 will be next Friday November 6th at 11:59 PM.   
 Resubmit only the problems you wish to revise.  
 
-[PS6](../psets/ps6.md) will be due next Wednesday Nov. 4th on HuskyCT.
+
+### For [next week](./10_setup.md): PDEs - Implicit and Spectral Methods
+- [ ] Read the rest of Newman Ch. 9.3

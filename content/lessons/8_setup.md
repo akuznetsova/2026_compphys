@@ -1,6 +1,5 @@
 # Week 8
 
-
 ##  Partial Differential Equations (PDEs)
 
 :::{table} 
@@ -23,6 +22,6 @@ Download the in-class exercises template [here](../in-class/8a_exercises.ipynb)
 Final project pitch is due next Wed. Oct. 28th on HuskyCT.
 
 
-### [Next week](./9_setup.md): PDEs - Implicit and Spectral methods
-- [ ] Read the rest of Newman Ch. 9.3
+### For [next week](./9_setup.md): Fourier Transforms
+- [ ] Read Newman Ch. 7
 

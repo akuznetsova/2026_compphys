@@ -13,6 +13,7 @@
 
 `````{tip}
 You can grab a template for this week's in-class exercises [here](../in-class/1a_exercises.ipynb)
+(due Fri. Sept. 4th at 3:00 PM.)
 `````
 
 ## Reminders
@@ -20,9 +21,10 @@ You can grab a template for this week's in-class exercises [here](../in-class/1a
 
 Please, make sure you've read through the [problem set guidelines](../4_psets.md) before starting!
 
-### [Next week](./2_setup.md): Visualization and Other Tools
-- [ ] Read Newman Ch. 3
-- [ ] Read [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) by Rougier et al.
+### For [next week](./2_setup.md): Visualization and Other Tools
+- [ ] Read Newman Ch. 3 (by Tues.)
+- [ ] Read [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) by Rougier et al. (by Tues.)
+- [ ] Read [Sect. 1.5: Making Computers Obey](./landau.pdf) from Landau et al. *Survey of Computational Physics* (by Thurs.)
 - [ ] If you have a windows laptop, see note @wsl for next week
 
 

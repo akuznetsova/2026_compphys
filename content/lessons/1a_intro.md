@@ -11,6 +11,7 @@ downloads:
 # Course Intro
 This is a computational physics course, focusing on learning and applying the numerical methods common in solving physics problems. As with many advanced and applied topics, this course ends up being a mix of interdisciplinary studies: the mathematics underpinning the development of these methods, their implementation with computer programming, and the physics of the problems themselves.
 
+
 ## What is programming?
 As such, computer programming is a broad umbrella term for multiple areas of knowledge and types of technical skills. Together, these can be thought of as making up the *craft* of programming. When people talk about coding they might be referring to specific elements of this craft:
 
