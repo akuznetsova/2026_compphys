@@ -1,14 +1,14 @@
 # Week 12
 
-## Monte Carlo Methods
+## MC Methods: Markov Chain
 
 :::{table} 
 :label: w12
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (11-17): Monte Carlo                     |Newman Ch. 10     | 
-| R (11-19): Monte Carlo                              | Newman Ch. 10    | 
+| T (11-17): MCMC                                       |Newman Ch. 10.3-10.4     | 
+| R (11-19): Bayesian Inference with MCMC                           |                         | 
 :::
 
 

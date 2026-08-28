@@ -7,8 +7,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (11-10): Monte Carlo                     |Newman Ch. 10     | 
-| R (11-12): Monte Carlo                              | Newman Ch. 10    | 
+| T (11-10): Intro to MC; Random sampling                        |Newman Ch. 10.1     | 
+| R (11-12): Monte Carlo Integration                             | Newman Ch. 10.2    | 
 :::
 
 
@@ -24,7 +24,7 @@ Final Project Abstract will be due next Wednesday Nov. 18th at 11:59PM on HuskyC
 Please review your pitch feedback on HuskyCT. 
 
 ### For [next week](./11_setup.md): Monte Carlo Methods
-- [ ] Read Newman Ch. 10
+- [ ] Read Newman Ch. 10.3-10.4 
 
 
 

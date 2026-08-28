@@ -19,9 +19,10 @@ Download the in-class exercises template [here](../in-class/8a_exercises.ipynb)
 ## Reminders 
 [Problem Set 5](../psets/ps5.md) is due **this Wed. October 21st** at 11:59 PM on HuskyCT.  
 
-Final project pitch is due next Wed. Oct. 28th on HuskyCT.
+Final project pitches due next Wed. Oct. 28th on HuskyCT.
 
 
 ### For [next week](./9_setup.md): Fourier Transforms
-- [ ] Read Newman Ch. 7
+- [ ] Read Newman Ch. 7.1-7.3 (by Tues.)
+- [ ] Read Newman Ch. 7.4 (by Thurs.)
 

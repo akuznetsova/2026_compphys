@@ -35,7 +35,8 @@ In this course, from week three onward, our content focus each week is on the im
 An algorithm is used for a specific task that is performed. Often times, when we are writing code we need to perform several tasks that depend on each other. 
 For example, a data analysis pipeline will need to read in and format data, perform an analysis on the data using some dedicated algorithm, and then return a file with the result. How these different tasks relay information to and depend on each other, what inputs change how the tasks are performed, and the overall structure of the code is it's architecture. 
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/dd/PhyCV_code_arch.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+![](../figures/1a_arch.png)
 
 If algorithms are like our individual sentences, then architecture refers to the overall plot of a short story (or novel, depending on how large your code is!) 
 
@@ -48,7 +49,7 @@ Some codebase, software, and languages will even have a [Style Guide](https://pe
 
 From the python style guide:  
 
-![](../figures/python_style.png)
+![](../figures/1a_python_style.png)
 
 Like there is for style in writing or clothes, what is considered "good" style is subjective and many people have their own opinions. (For a start, many software developers recommend the principles in [Clean Code](https://dl.acm.org/doi/abs/10.5555/1388398) by Robert C. Martin.)
 
@@ -67,8 +68,7 @@ There are a variety of tools that can help you catch bugs (that you can use in y
 
 The most recommended [debugging tool](https://en.wikipedia.org/wiki/Rubber_duck_debugging):
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Rubber_Duck_with_Emacs.jpg/330px-Rubber_Duck_with_Emacs.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail)
-
+![](../figures/1a_duck.jpg)
 
 Zero-order, you should at least be using diagnostic `print` statements to check your work (this is typically sufficient for relatively contained programs and scripts that you'll be writing for homework and in-class.)
 

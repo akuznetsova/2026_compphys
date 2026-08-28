@@ -7,8 +7,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (10-27): FTs                      |Newman Ch. 7      | 
-| R (10-29): FTs                                 | Newman Ch. 7    | 
+| T (10-27): Fourier Series & DFTs                      | Newman Ch. 7.1-7.3      | 
+| R (10-29): Fast Fourier Transforms (FFTs)                 | Newman Ch. 7.4    | 
 :::
 
 
