@@ -50,6 +50,8 @@ These resources are provided as more self-contained or curated references.
 ## Misc.
 + [Project Euler](https://projecteuler.net/about)
     - A set of computational puzzles for practicing algorithmic thinking. (A bit pretentious.)
++ [Touch Typing Practice](https://www.typespeedtest.com/tutorial/)
+    - Easier to focus on programming when typing is muscle memory. You can use the site to practice and track your progress. 
 
 ```{note}
 If you'd like to recommend a resource you've found helpful, feel free to send it along!
