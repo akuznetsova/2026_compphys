@@ -12,9 +12,9 @@ project:
     myst-guide: https://mystmd.org/guide
     jupyter: https://docs.jupyter.org/en/latest
   static_files:
-    - /content/syllabus.pdf
-    - /content/lessons/landau.pdf
-    - /content/psets/ps1.pdf
+    - content/syllabus.pdf
+    - content/lessons/landau.pdf
+    - content/psets/ps1.pdf
   date: ${BUILD_DATE} 
   github: https://github.com/akuznetsova/2026_compphys 
   edit_url: 
