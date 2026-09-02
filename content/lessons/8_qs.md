@@ -9,6 +9,7 @@ Let's classify Laplace's Equation:
 ```{solution} ex_8-1
 :label: sol_8-1
 :nonumber:
+:class: dropdown
 Laplace's equation only varies in space, and we are provided all relevant BCs, so it's a **BVP**. 
 It has a similar form to a Poisson Equation:
 $$\nabla^2 \phi = f$$

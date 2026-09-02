@@ -13,6 +13,7 @@ Let's say we start from a level surface, and after $t_1$ seconds the projectile 
 ```{solution} ex_7-2
 :label: sol_7-2
 :nonumber:
+:class: dropdown
 Just checking if you're awake:
 $$ x(0) = 0 \ x(t_1) = L \\
 y(0) = 0 \ y(t_1) = 0 $$

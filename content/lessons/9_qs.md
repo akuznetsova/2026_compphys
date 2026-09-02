@@ -1,27 +1,19 @@
 ```{exercise} Check-in Question
 :label: ex_9-1
 :nonumber:
-Let's classify Laplace's Equation:
-+ Is this a BVP or an IVP?
-+ Is it hyperbolic, elliptic, or parabolic?
+What kind of error do we expect between the original data and the inverse DFT?
 ```
 
-```{solution} ex_9-1
-:label: sol_9-1
-:nonumber:
-Laplace's equation only varies in space, and we are provided all relevant BCs, so it's a **BVP**. 
-It has a similar form to a Poisson Equation:
-$$\nabla^2 \phi = f$$
-with a source function $f = 0$, so it's an **Elliptic PDE**
 
-The BCs are constraints on the solution, so they are **Dirichlet** BCs. 
-```
-
-```{exercise} Discussion Question
+```{exercise} Check-in Question
 :label: ex_9-2
 :nonumber:
-How can you improve the accuracy of the Jacobi method applied to Laplaces Equations? 
-(Hint: There are two ways to end up with a more accurate discretization)
+For $N$ data points, how many calculations does a DFT of a real-valued function take?
+```
 
-How do you expect the computation time to scale with these improvements?
+```{solution} ex_9-2
+:label: sol_9-2
+:nonumber:
+:class: dropdown
+For each of the $N$ data points, we calculate $N/2 + 1$ distinct coefficients for a real-valued function, for a total of $N(N/2 + 1) \approx 1/2 N^2$
 ```

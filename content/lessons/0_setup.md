@@ -3,10 +3,11 @@
 Grab a seat with a syllabus on it!
 
 ## Today's Agenda
-
 - [ ] Introductions: 
     + Provide: Name, Year/Career Stage, Field of Interest
-    + Answer Q: What kind of program do you want to be able to make? i.e. what problem are you interested in solving numerically?
+    + Answer Q: 
+        What kind of program do you want to be able to make? 
+        i.e. what problem(s) are you interested in solving numerically?
 
 - [ ] Logistics Overview (feat. syllabus):
     + In the classroom
