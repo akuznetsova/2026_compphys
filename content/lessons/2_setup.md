@@ -11,12 +11,10 @@ If you have a Windows laptop, please make sure you have set up the [Windows Subs
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (09-08): Visualization with Matplotlib                        | Newman Ch. 3, https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable         | 
-| R (09-10): Talking to the Computer                              | [Sect. 1.5: Making Computers Obey](./landau.pdf)    | 
+| T (09-08):[Visualization with Matplotlib](./2a_matplotlib.ipynb)                        | Newman Ch. 3, https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable         | 
+| R (09-10):  [Talking to the Computer](./2b_computer.md)                             | [Sect. 1.5: Making Computers Obey](./landau.pdf)    | 
 :::
 
-%+ T (09-08): [Visualization with Matplotlib](./2a_matplotlib.ipynb)
-%+ R (09-10): [Talking to the Computer](./2b_computer.md)
 
 
 `````{tip}

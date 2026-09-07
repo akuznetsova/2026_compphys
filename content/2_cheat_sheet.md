@@ -48,6 +48,7 @@ These resources are provided as more self-contained or curated references.
     - One of the classics. Full 3rd edition hosted by the authors as pdfs. Written for C++, but concepts transferrable.
 
 ## Misc.
++ [How to disable AI features in VSCode](https://code.visualstudio.com/docs/supporting/faq#_can-i-disable-ai-functionality-in-vs-code)
 + [Project Euler](https://projecteuler.net/about)
     - A set of computational puzzles for practicing algorithmic thinking. (A bit pretentious.)
 + [Touch Typing Practice](https://www.typespeedtest.com/tutorial/)

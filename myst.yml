@@ -55,7 +55,7 @@ project:
         - file: content/lessons/2_setup.md          # dropdown menu
           children:
             - file: content/lessons/2a_matplotlib.ipynb
-              hidden: True
+              hidden: False
             - file: content/lessons/2b_computer.md
               hidden: True
             - file: content/in-class/2a_exercises.ipynb
@@ -63,7 +63,7 @@ project:
             - file: content/lessons/2_qs.md
               hidden: True
         - file: content/lessons/3_setup.md
-          hidden: True
+          hidden: False
           children:
             - file: content/lessons/3a_accuracy.ipynb
               hidden: True
