@@ -25,6 +25,16 @@ While this is not a computer science or engineering class, by virtue or writing 
 ## The Command Line
 We will be talking to our computer on the command line (also known as a terminal or shell). Shells have their own languages (bash, tsc, zsh, etc.) which talk to your computer. 
 
+```{tip} The `man` pages
+The most basic tool available to you for using the command line is available while using the command line!
+
+Each command has a manual or `man` page, accessible by typing:
+
+`man [COMMAND]` 
+
+which will tell you it's usage and optional arguments. 
+```
+
 We will be doing a little bit of command line interfacing, for a more dedicated tutorial, check out this free resource by [Software Carpentry](https://swcarpentry.github.io/shell-novice/index.html).
 
 ```{note}

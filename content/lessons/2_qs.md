@@ -48,6 +48,7 @@ all_fits["zeta"][6]
 + First, make sure you're back home. 
 
 + Let's keep things tidy and start off by making a directory. 
+    
     `mkdir [PATH]` will *make a directory* at the path you provide. 
 
     You can use always use './' as a shorthand for where you currently are so you don't have to type the full path. This is called using a *relative path*. Or you can just type the name of file or directory you want and the shell will assume it will put it in your current location.
@@ -57,6 +58,7 @@ all_fits["zeta"][6]
 + Then, let's use your navigating skills to get inside the directory you created. 
 
 + There's nothing in there right now. Let's write a little message:  
+    
     `echo 'hi there' > [PATH] ` will repeat the string you put in and *pipe* it into a file at the path you put. 
 
     `cat [PATH]` will tell you the entire contents of the file at the path. 
