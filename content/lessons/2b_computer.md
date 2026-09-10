@@ -36,11 +36,25 @@ For this exercise, we are going to use a unix based shell.
 ## Getting to know the Computer
 Your computer is a physical object, it's operations are bounded by it's hardware. 
 
-The basic operations a computer performs are:
-### Storing information (Memory)
-All information on a computer is encoded into binary (0 or 1) - a signal or switch that is on or off. A single 0 or 1 is a *bit* and 8 bits make up a *byte*: the base unit of memory or storage. A byte can store $2^8$ or $256$ possible values which can be encoded to represent a number or a letter. Each file when opened on your computer is *physically* encoded by the number of "on" or " off" switches in memory that represent all the information in it and about it (the metadata). The CPU or processor is what does the shuffling around of information. Each processor is typically attached to some RAM (random access memory), which is where your computer keeps information while it's working on it. (This is much easier than trying to [read it off a hard disk each time](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)). Each time you open a file, assign a variable, or make an array, your computer makes space for it in the RAM and assigns to an on or off switch. When your files are written to your file system, that is when it is written onto a hard disk by a literal actuator on an arm that magnetically signals to a specific position on the disk. 
+The basic operations a computer performs boil down to *storing information* and *performing operations*.
 
-Since we are human beings, and human beings think in hierarchies, we interface with information stored on our computer through a hierarchical **filesystem**
+### Storing information (Memory)
+All information on a computer is encoded into binary (0 or 1) - a signal or switch that is on or off. 
+
+A single 0 or 1 is a *bit* and 8 bits make up a *byte*: the base unit of memory or storage. 
+
+A byte can store $2^8$ or $256$ possible values which can be encoded to represent a number or a letter. 
+
+Each file when opened on your computer is *physically* encoded by the number of "on" or " off" switches in memory that represent all the information in it and about it (the metadata). 
+
+The CPU or processor is what does the shuffling around of information. Each processor is typically attached to some RAM (random access memory), which is where your computer keeps information while it's working on it. (This is much easier than trying to [read it off a hard disk each time](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)). 
+
+Each time you open a file, assign a variable, or make an array, your computer makes space for it in the RAM and assigns to a series of on or off switches. 
+
+When your files are written to your file system, that is when it is written onto a hard disk by a literal actuator on an arm that magnetically signals to a specific position on the disk. 
+
+Since we are human beings, and human beings think in hierarchies, we interface with information stored on our computer through a hierarchical **filesystem**.
+
 One of the most basic and fundamental things we can do on the command line is navigate our filesystem. 
 
 ```{embed} #ex_2-3
@@ -51,7 +65,7 @@ You will have noticed some resemblance to the files and folders in your Explorer
 ```{embed} #ex_2-4
 ```
 
-```{embed} #ex_2-4
+```{embed} #sol_2-4
 ```
 
 ```{note}
@@ -61,6 +75,7 @@ The now standardized manufacturer's definition states that 1GB=$10^9$ bytes, whi
 
 ### Performing Operations (CPUs)
 Your computer stores representations of information and it can perform logical operations with those numbers (addition, subtraction, multiplication, division etc.) If you know how a calculator works, you know how a computer works. 
+
 How fast or powerful a computer is at doing operations is it's processing speed - this is how fast it can access information it's stored in memory, shuffle it around, and re-assign it to a new value (in practice, this can depend on both the amount of processors and the space it has in RAM).  
 
 Processing power is measured in units of [FLOPS](https://en.wikipedia.org/wiki/Floating_point_operations_per_second): *floating point operations per second*, literally how quickly it can add numbers. 
@@ -70,34 +85,41 @@ Each program a computer runs is essentially a list of operations on some informa
 ```{embed} #ex_2-5
 ```
 
-
 ## Setting Up your Environment
-The absolute simplest interaction we can have with python is running python straight from our command line in the *python shell* (just type `python` in your terminal). The python shell is a program that interprets our python commands into the computer's native assembly on the fly, translating our commands into the access and shuffling around of bytes.
+The absolute simplest interaction we can have with python is running python straight from our command line in the *python shell* (just type `python` in your terminal). 
 
-In navigating our filesystem, you might have noticed that we had to be specific about our path when using commands. Because information has a physical location, represented by it's path in our file system, the computer has to know how to find the information (the program it has to run, the data it has to manipulate, etc.). 
+The python shell is a program that interprets our python commands into the computer's native assembly on the fly, translating our commands into the access and shuffling around of bytes.
+
+In navigating our filesystem, you might have noticed that we had to be specific about our path when using commands. Because information has a physical location, represented by it's path in our file system, the computer has to know how to find the information whether this is the program it has to run, the data it has to manipulate, etc. 
 
 ### The Shell Environment
-There is a set of things the computer knows about by default. These describe the *environment*. The bash (or zsh on Mac) shell, like python, can store information assigned to variables. The default variables it stores are called environment variables. (They typically have a `$` in front.)
+There is a set of things the computer knows about by default. These describe the *environment*. The bash (or zsh on Mac) shell, like python, can store information assigned to variables. 
 
-For example, when you run `python` from the command line, there isn't any file called python in the folder you are at. This is because there are a set of places your computer looks for programs to find them. The list of path locations it can look for a variable is stored in the `PATH` variable. 
+The default variables a shell stores are called *environment variables*. They typically have a `$` in front.
+
+For example, when you run `python` from the command line, there isn't any executable file called `python` in your directory, necessarily. This is because there are a set of places your computer looks for programs to find them. The list of path locations it can look for a variable is stored in the `PATH` variable. 
 
 You can ask your computer where it looks with `echo $PATH`.
 
-For example, when you install a python distribution, it links the location of it's modules, packages, default settings, etc. and add them to your environment variable. So when you use a program like a ipython notebook, it uses that information to know where your numpy module is so you can call `import numpy` without having to be in a folder with `numpy.py` in it. 
+For example, when you install a python distribution, it links the location of it's modules, packages, default settings, etc. and adds them to your environment variable for the $PATH. So when you use a program like a ipython notebook, it uses that information to know where your numpy module is so you can call `import numpy` without having to be in a folder with `numpy.py` in it. 
 
-You can see where your applications live according to your computer, for example: `which python` will tell you the path of the python distribution your computer is using right now. 
+You can always see where your applications live according to your computer. For example: `which python` will tell you the path of the python distribution your computer is using right now. 
 
-You can alter your environment in a file (typically your `.bashrc` or `.zshrc` for Mac) that your shell reads and executes whenever it starts up. 
+You can alter your environment in a file (typically your `.bashrc` or `.zshrc` for Mac) that your shell reads and executes whenever it starts up. For example, you can add to the list in your `PATH` or define nicknames (called *aliases*) for certain commands or paths. 
 
-For example, you can add to the list in your `PATH` or define nicknames for commands or paths. When you build programs from source (i.e. compile an executable rather than download an installer from the web) you will often have to manually append your `PATH` variable, as well as know the paths of any external libraries the program will need to access. 
+When you build programs from source (i.e. compile an executable file from a series of files rather than download an installer from the web) you will often have to manually append your `PATH` variable, as well as know the paths of any external libraries the program will need to access. 
+
+If you work with a high performance computing (HPC) system or supercomputer, the external libraries you might need will live across many different machines. In order to access them, you will typically need to load in external modules, which will have their own environment variables that store the paths. 
 
 ```{embed} #ex_2-6
 ```
 
 ### The Python Environment
-Just like the shell environment, you can also set up a python environment which specifically deals with which python distributions and packages you have accesst to. This is typically done within environment managers. 
+Just like the shell environment, you can also set up a python environment which specifically deals with which python distributions and packages you have access to. This is typically done within *environment managers*. 
+
 For example, Anaconda is a commonly used python environment manager. If you type in `which python` you should see anaconda somewhere in the path, if anaconda is managing your python environment. 
-Anaconda also lets you set up different environments and switch between them. This is especially handy if you have projects that use different versions of python or external libraries that only work because with specific library versions that may be different than the ones that you have by default. 
+
+Anaconda also lets you set up different environments and switch between them. This is especially handy if you have projects that use different versions of python or need to use external libraries that only work because with specific (non-default) library versions. 
 
 ### The Integrated Development Environment (IDE)
 When it comes to how you typically develop (write) and work with programs, most developers use an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment). 
@@ -109,6 +131,7 @@ Some example IDEs are:
 + VSCode
 + Spyder
 + PyCharm 
++ IDLE
 
 I typically use VSCode, because I can edit notebooks and scripts, code in multiple languages, often make use of the integrated terminal panel, and edit code on other computers over a network (e.g. HPC, other workstations, etc.)
 

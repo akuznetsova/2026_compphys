@@ -57,7 +57,7 @@ project:
             - file: content/lessons/2a_matplotlib.ipynb
               hidden: False
             - file: content/lessons/2b_computer.md
-              hidden: True
+              hidden: False
             - file: content/in-class/2a_exercises.ipynb
               hidden: True
             - file: content/lessons/2_qs.md

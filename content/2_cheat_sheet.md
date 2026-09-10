@@ -47,8 +47,23 @@ These resources are provided as more self-contained or curated references.
 + [Numerical Recipes](https://numerical.recipes/book.html) by William H. Press et al. 
     - One of the classics. Full 3rd edition hosted by the authors as pdfs. Written for C++, but concepts transferrable.
 
+## Plotting and Visualization
++ [Matplotlib Cheatsheet Gallery](https://matplotlib.org/cheatsheets/)
+    - Pick your favorite, print it out, hang it above your desk
++ [10 Simple Rules](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable )
+    - Rougier et al., reading from week 2
++ [Matplotlib Stylesheets](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html)
+    - `plt.style.use(...)` with one of these reference styles for a very quick plot makeover.
++ [Make your own stylesheet](https://matplotlib.org/stable/users/explain/customizing.html#defining-your-own-style)
+    - see also setting your `rcparams`
++ [CMasher colormaps](https://cmasher.readthedocs.io/user/introduction.html)
+    - colormaps beyond the defaults
+
 ## Misc.
 + [How to disable AI features in VSCode](https://code.visualstudio.com/docs/supporting/faq#_can-i-disable-ai-functionality-in-vs-code)
+    - Good for general sanity purposes
++ [Get a VSCode Pet](https://tonybaloney.github.io/vscode-pets/)
+    - Grown-up tamagotchi?
 + [Project Euler](https://projecteuler.net/about)
     - A set of computational puzzles for practicing algorithmic thinking. (A bit pretentious.)
 + [Touch Typing Practice](https://www.typespeedtest.com/tutorial/)

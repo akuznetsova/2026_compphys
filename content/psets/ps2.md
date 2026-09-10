@@ -1,7 +1,21 @@
+---
+exports:
+  - format: pdf
+    template: lapreprint-typst
+    id: ps2_code
+downloads:
+  - id: ps2_code
+    title: code PDF 
+  - file: ps2.pdf
+    title: PS2 PDF
+---
+
 # PS2: Visualization
 Due: 11:59 PM Wednesday September 16th on HuskyCT
 + Submitted solutions are restricted to imports of external functions from standard built-in Python libraries (i.e. `math`, `time`, `os`, `sys`, etc.).
 + In addition, imports from `matplotlib.pyplot` and `numpy` are permitted here.
+
+[PS2 Questions](./ps2.pdf)
 
 ## 2.1 Plotting Experimental Data
 ```{literalinclude} ps2_1.py
