@@ -18,7 +18,8 @@ Download the in-class exercises template [here](../in-class/3a_exercises.ipynb)
 ## Reminders 
 [Problem Set 2](../psets/ps2.md) is due **this Wednesday September 16th.** by 11:59 PM. 
  
-The deadline to revise and resubmit problems from PS1/PS2 will be next week: Friday September 25th.
+The deadline to revise and resubmit problems from PS1/PS2 will be next week:   
+Friday September 25th.
 
 ### [Next week](./4_setup.md): Integration & Differentiation
 - [ ] Read Newman Ch. 6.1, 6.2 (by Tues.)
