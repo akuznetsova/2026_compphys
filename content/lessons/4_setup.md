@@ -1,16 +1,13 @@
 # Week 4
 
-%+ T (09-22): [Integrals](./4a_integrals.ipynb)
-%+ R (09-24): [Derivatives](./4b_derivatives.ipynb)
-
 ## Integration and Differentation
 :::{table} 
 :label: w04
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (09-22): Numerical Integrals                      | Newman Ch. 5.1-5.6        | 
-| R (09-24): Numerical Derivatives                             | Newman Ch. 5.8-5.10      | 
+| T (09-22): [Numerical Integrals](./4a_integrals.ipynb)                      | Newman Ch. 5.1-5.6        | 
+| R (09-24): [Numerical Derivatives](./4b_derivatives.ipynb)                             | Newman Ch. 5.8-5.10      | 
 :::
 
 

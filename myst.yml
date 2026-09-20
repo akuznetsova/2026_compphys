@@ -75,15 +75,15 @@ project:
           hidden: False
           children:
             - file: content/lessons/4a_integrals.ipynb
-              hidden: True
+              hidden: False
             - file: content/lessons/4b_derivatives.ipynb
-              hidden: True
+              hidden: False
             - file: content/in-class/4a_exercises.ipynb
               hidden: True
             - file: content/lessons/4_qs.md
               hidden: True
         - file: content/lessons/5_setup.md
-          hidden: True
+          hidden: False
           children:
             - file: content/lessons/5a_lineareqs.ipynb
               hidden: True
