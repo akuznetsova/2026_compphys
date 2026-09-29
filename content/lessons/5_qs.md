@@ -1,8 +1,9 @@
 ```{exercise} Check-in Question
 :label: ex_5-1
 :nonumber:
-Using a given row, $k$, we want to eliminate the $kth$ term of all other rows using forward elimination. 
-Let's try to come up with a *pseudo-code* for how to put what we just did algorithmically.
+While we walk through the steps below, let's try to come up with the *pseudo-code* for performing the steps algorithmically.
+
+Think about generalizing: using a given row, $k$, we want to eliminate the $kth$ term of all other rows using forward elimination. 
 ```
 
 ```{solution} ex_5-1
@@ -20,7 +21,7 @@ We will loop through every row but the last.
 :label: ex_5-2
 :nonumber:
 
-Line by line, read through the code and come up with a comment for what each line is doing in the code.
+Line by line, read through the code below and come up with a comment for what each line is doing in the code.
 ```
 
 ```{exercise} Check-in Question

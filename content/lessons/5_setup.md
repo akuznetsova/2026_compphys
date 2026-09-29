@@ -6,8 +6,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (09-29): Linear Equations                      |Newman Ch. 6.1, 6.2        | 
-| R (10-01): Non-linear Equations                             | Newman Ch. 6.3, 6.4      | 
+| T (09-29): [Linear Equations](./5a_lineareqs.ipynb)                      |Newman Ch. 6.1, 6.2        | 
+| R (10-01): [Non-linear Equations](./5b_nonlineareqs.ipynb)                             | Newman Ch. 6.3, 6.4      | 
 :::
 
 
