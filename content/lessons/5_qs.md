@@ -10,11 +10,11 @@ Think about generalizing: using a given row, $k$, we want to eliminate the $kth$
 :label: sol_5-1
 :class: dropdown
 We will loop through every row but the last.   
-    Within this loop, the current row is the kth row.
-        For that row, we will loop through all subsequent rows $j = [k+1 \ldots N]$ and:
-            + define a coefficient $$f_{j} = \frac{a_{j,k}}{a_{k,k}}$$
-            + subtract $f_{j} \times \{ \mathrm{row}~k \}$ from the row $j$
-            + subtract $f_{j} \times v_j$ from the corresponding row of $v_j$
+Within this loop, the current row is the kth row.
+For that row, we will loop through all subsequent rows $j = [k+1 \ldots N]$ and:
+    + define a coefficient $$f_{j} = \frac{a_{j,k}}{a_{k,k}}$$
+    + subtract $f_{j} \times \{ \mathrm{row}~k \}$ from the row $j$
+    + subtract $f_{j} \times v_j$ from the corresponding row of $v_j$
 ```
 
 ```{exercise} Check-in Question
