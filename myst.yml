@@ -88,7 +88,7 @@ project:
             - file: content/lessons/5a_lineareqs.ipynb
               hidden: False
             - file: content/lessons/5b_nonlineareqs.ipynb
-              hidden: True
+              hidden: False
             - file: content/in-class/5a_exercises.ipynb
               hidden: True
             - file: content/lessons/5_qs.md
