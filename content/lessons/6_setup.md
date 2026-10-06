@@ -8,8 +8,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (10-06): Introduction to ODEs, IVPs                      |Newman Ch. 8.1, 8.2        | 
-| R (10-08): Adaptive and Higher Order Methods                             | Newman Ch. 8.3, 8.4      | 
+| T (10-06): [Introduction to ODEs, IVPs](./6a_ODEs.ipynb)       |Newman Ch. 8.1, 8.2        | 
+| R (10-08): [Adaptive and Higher Order Methods](./6b_ODEs.ipynb)| Newman Ch. 8.3, 8.4      | 
 :::
 
 

@@ -97,7 +97,7 @@ project:
           hidden: False
           children:
             - file: content/lessons/6a_ODEs.ipynb
-              hidden: True
+              hidden: False
             - file: content/lessons/6b_ODEs.ipynb
               hidden: True
             - file: content/in-class/6a_exercises.ipynb
@@ -105,7 +105,7 @@ project:
             - file: content/lessons/6_qs.md
               hidden: True
         - file: content/lessons/7_setup.md
-          hidden: True
+          hidden: False
           children:
             - file: content/lessons/7a_ODEs.ipynb
               hidden: True
