@@ -16,6 +16,8 @@ project:
     - content/lessons/landau.pdf
     - content/psets/ps1.pdf
     - content/psets/ps2.pdf
+    - content/psets/ps3.pdf
+    - content/psets/ps4.pdf
   date: ${BUILD_DATE} 
   github: https://github.com/akuznetsova/2026_compphys 
   edit_url: 
@@ -99,7 +101,7 @@ project:
             - file: content/lessons/6a_ODEs.ipynb
               hidden: False
             - file: content/lessons/6b_ODEs.ipynb
-              hidden: True
+              hidden: False
             - file: content/in-class/6a_exercises.ipynb
               hidden: True
             - file: content/lessons/6_qs.md
