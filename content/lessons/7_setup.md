@@ -8,8 +8,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (10-13): Additional Methods for ODEs                     |Newman Ch. 8.5       | 
-| R (10-15): Boundary Value Problems (BVPs)                 | Newman Ch. 8.6     | 
+| T (10-13): [Additional Methods for ODEs](./7a_ODEs.ipynb)      |Newman Ch. 8.5       | 
+| R (10-15): [Boundary Value Problems (BVPs)](./7b_ODEs.ipynb)   | Newman Ch. 8.6     | 
 :::
 
 
