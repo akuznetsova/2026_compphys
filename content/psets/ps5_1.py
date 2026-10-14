@@ -32,7 +32,7 @@ fig, ax = plt.subplots(1,1, figsize=(7,5))
 #ax.plot(..., label='Foxes')
 ax.set_xlim(0,30)
 ax.set_xlabel("Time")
-ax.set_ylabel("Population [thousand]")
+ax.set_ylabel("Population [thousands]")
 ax.set_title('Rabbits vs. Foxes for equal initial populations')
 ax.legend()
 

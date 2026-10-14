@@ -119,7 +119,7 @@ project:
             - file: content/lessons/7_qs.md
               hidden: True
         - file: content/lessons/8_setup.md
-          hidden: True
+          hidden: False
           children:
             - file: content/lessons/8a_PDEs.ipynb
               hidden: True
