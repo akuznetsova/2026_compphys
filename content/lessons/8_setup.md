@@ -7,8 +7,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (10-20): Intro to PDEs; BVP PDEs                      |Newman Ch. 9.1-9.2       | 
-| R (10-22): IVP PDEs                                   | Newman Ch. 9.3.1-9.3.2     | 
+| T (10-20): [Intro to PDEs; BVP PDEs](./8a_PDEs.ipynb)                      |Newman Ch. 9.1-9.2       | 
+| R (10-22): [IVP PDEs](./8b_PDEs.ipynb)                                   | Newman Ch. 9.3.1-9.3.2     | 
 :::
 
 
