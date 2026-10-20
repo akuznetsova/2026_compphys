@@ -12,7 +12,7 @@
 :::
 
 `````{tip}
-Download the in-class exercises template [here](../in-class/10a_exercises.ipynb)
+Download the in-class exercises template [here](../in-class/10a_exercises.ipynb) and the module [banded.py](../in-class/banded.py)
 `````
 
 ## Reminders 
