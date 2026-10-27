@@ -133,13 +133,13 @@ project:
           hidden: False
           children:
             - file: content/lessons/9a_FTs.ipynb
-              hidden: True
+              hidden: False
             - file: content/in-class/9a_exercises.ipynb
               hidden: True
             - file: content/lessons/9_qs.md
               hidden: True
         - file: content/lessons/10_setup.md
-          hidden: True
+          hidden: False
           children:
             - file: content/lessons/10a_PDEs.ipynb
               hidden: True
