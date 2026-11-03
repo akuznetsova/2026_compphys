@@ -19,6 +19,7 @@ project:
     - content/psets/ps3.pdf
     - content/psets/ps4.pdf
     - content/psets/ps5.pdf
+    - content/psets/ps6.pdf
   date: ${BUILD_DATE} 
   github: https://github.com/akuznetsova/2026_compphys 
   edit_url: 
@@ -142,19 +143,15 @@ project:
           hidden: False
           children:
             - file: content/lessons/10a_PDEs.ipynb
-              hidden: True
-            - file: content/lessons/10b_PDEs.ipynb
-              hidden: True
+              hidden: False
             - file: content/in-class/10a_exercises.ipynb
               hidden: True
             - file: content/lessons/10_qs.md
               hidden: True
         - file: content/lessons/11_setup.md
-          hidden: True
+          hidden: False
           children:
             - file: content/lessons/11a_MCs.ipynb
-              hidden: True
-            - file: content/lessons/11b_MCs.ipynb
               hidden: True
             - file: content/in-class/11a_exercises.ipynb
               hidden: True
