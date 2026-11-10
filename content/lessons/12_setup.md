@@ -7,8 +7,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (11-17): MCMC                                       |Newman Ch. 10.3-10.4     | 
-| R (11-19): Bayesian Inference with MCMC                           |                         | 
+| T (11-17): MCMC Simulation                                     |Newman Ch. 10.3-10.4     | 
+| R (11-19): Bayesian Inference with MCMC                        |                         | 
 :::
 
 

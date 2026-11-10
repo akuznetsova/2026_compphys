@@ -27,4 +27,8 @@ Due: 11:59 PM Wednesday November 11th on HuskyCT
 ```{literalinclude} ps6_4.py
 :lineno-match:
 ``` 
-
+[blur.txt](./blur.txt)  
+```{literalinclude} blur.txt
+:end-line: 10
+:lineno-match:
+``` 
