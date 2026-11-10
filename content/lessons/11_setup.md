@@ -7,8 +7,8 @@
 :align: center
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
-| T (11-10): Intro to MC; Random sampling                        |Newman Ch. 10.1     | 
-| R (11-12): Monte Carlo Integration                             | Newman Ch. 10.2    | 
+| T (11-10): [Intro to MC; Random sampling](./11a_MC.ipynb)                        |Newman Ch. 10.1     | 
+| R (11-12): [Monte Carlo Integration](./11a_MC.ipynb)                             | Newman Ch. 10.2    | 
 :::
 
 
