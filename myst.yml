@@ -152,7 +152,7 @@ project:
         - file: content/lessons/11_setup.md
           hidden: False
           children:
-            - file: content/lessons/11a_MCs.ipynb
+            - file: content/lessons/11a_MC.ipynb
               hidden: False
             - file: content/in-class/11a_exercises.ipynb
               hidden: True
