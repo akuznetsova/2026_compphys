@@ -14,7 +14,7 @@
 
 
 `````{tip}
-Download the in-class exercises template {download}`../in-class/11a_exercises.ipynb`
+Download the in-class exercises template {download}`here <../in-class/11a_exercises.ipynb>`
 `````
 
 ## Reminders 

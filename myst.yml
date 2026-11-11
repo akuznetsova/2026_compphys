@@ -201,6 +201,9 @@ project:
     PDE: Partial Differential Equation
     IVP: Initial Value Problem
     BVP: Boundary Value Problem
+    FT: Fourier Transform
+    MC: Monte Carlo
+    MCMC: Markov Chain Monte Carlo
 
     
 site:
