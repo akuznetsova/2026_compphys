@@ -51,7 +51,7 @@ project:
               hidden: True
             - file: content/lessons/1b_pythonintro.ipynb
               hidden: False
-            - file: content/in-class/1a_exercises.ipynb
+            - file: content/in-class/w1_exercises.ipynb
               hidden: True
             - file: content/in-class/1a_exercises.md
               hidden: True
@@ -63,7 +63,7 @@ project:
               hidden: False
             - file: content/lessons/2b_computer.md
               hidden: False
-            - file: content/in-class/2a_exercises.ipynb
+            - file: content/in-class/w2_exercises.ipynb
               hidden: True
             - file: content/lessons/2_qs.md
               hidden: True
@@ -72,7 +72,7 @@ project:
           children:
             - file: content/lessons/3a_accuracy.ipynb
               hidden: False
-            - file: content/in-class/3a_exercises.ipynb
+            - file: content/in-class/w3_exercises.ipynb
               hidden: True
             - file: content/lessons/3_qs.md
               hidden: True
@@ -83,7 +83,7 @@ project:
               hidden: False
             - file: content/lessons/4b_derivatives.ipynb
               hidden: False
-            - file: content/in-class/4a_exercises.ipynb
+            - file: content/in-class/w4_exercises.ipynb
               hidden: True
             - file: content/lessons/4_qs.md
               hidden: True
@@ -105,7 +105,7 @@ project:
               hidden: False
             - file: content/lessons/6b_ODEs.ipynb
               hidden: False
-            - file: content/in-class/6a_exercises.ipynb
+            - file: content/in-class/w6_exercises.ipynb
               hidden: True
             - file: content/lessons/6_qs.md
               hidden: True
@@ -116,7 +116,7 @@ project:
               hidden: False
             - file: content/lessons/7b_ODEs.ipynb
               hidden: False
-            - file: content/in-class/7a_exercises.ipynb
+            - file: content/in-class/w7_exercises.ipynb
               hidden: True
             - file: content/lessons/7_qs.md
               hidden: True
@@ -127,7 +127,7 @@ project:
               hidden: False
             - file: content/lessons/8b_PDEs.ipynb
               hidden: False
-            - file: content/in-class/8a_exercises.ipynb
+            - file: content/in-class/w8_exercises.ipynb
               hidden: True
             - file: content/lessons/8_qs.md
               hidden: True
@@ -136,7 +136,7 @@ project:
           children:
             - file: content/lessons/9a_FTs.ipynb
               hidden: False
-            - file: content/in-class/9a_exercises.ipynb
+            - file: content/in-class/w9_exercises.ipynb
               hidden: True
             - file: content/lessons/9_qs.md
               hidden: True
@@ -145,7 +145,7 @@ project:
           children:
             - file: content/lessons/10a_PDEs.ipynb
               hidden: False
-            - file: content/in-class/10a_exercises.ipynb
+            - file: content/in-class/w10_exercises.ipynb
               hidden: True
             - file: content/lessons/10_qs.md
               hidden: True
@@ -154,7 +154,7 @@ project:
           children:
             - file: content/lessons/11a_MC.ipynb
               hidden: False
-            - file: content/in-class/11a_exercises.ipynb
+            - file: content/in-class/w11_exercises.ipynb
               hidden: True
             - file: content/lessons/11_qs.md
               hidden: True
@@ -165,7 +165,7 @@ project:
               hidden: True
             - file: content/lessons/12b_MCMC.ipynb
               hidden: True
-            - file: content/in-class/12a_exercises.ipynb
+            - file: content/in-class/w12_exercises.ipynb
               hidden: True
             - file: content/lessons/12_qs.md
               hidden: True
@@ -174,7 +174,7 @@ project:
           children:
             - file: content/lessons/14a_.ipynb
               hidden: True
-            - file: content/in-class/14a_exercises.ipynb
+            - file: content/in-class/w14_exercises.ipynb
               hidden: True
             - file: content/lessons/14_qs.md
               hidden: True

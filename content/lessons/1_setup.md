@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../in-class/w1_exercises.ipynb
+    title: In-class Exercises
+---
+
 # Week 1
 
 ## Introduction
