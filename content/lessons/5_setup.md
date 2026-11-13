@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../in-class/w5_exercises.ipynb
+    title: In-class Exercises
+---
+
 # Week 5
 
 ## Linear and Non-Linear Equations
@@ -11,10 +17,6 @@
 :::
 
 
-`````{tip}
-Download the in-class exercises template [here](../in-class/5a_exercises.ipynb)
-`````
-
 ## Reminders 
 [Problem Set 3](../psets/ps3.md) is due **this Wednesday September 30th** at 11:59 PM on HuskyCT.
 
@@ -24,5 +26,7 @@ Download the in-class exercises template [here](../in-class/5a_exercises.ipynb)
 - [ ] Read Newman Ch. 8.1, 8.2 (by Tues.)
 - [ ] Read Newman Ch. 8.3, 8.4 (by Thurs.)
 
-
+`````{tip}
+You can grab a template for this week's in-class exercises using the downloads button at the top.
+`````
 

@@ -1,3 +1,11 @@
+---
+downloads:
+  - file: ../in-class/w4_exercises.ipynb
+    title: In-class Exercises
+  - file: ../in-class/gaussxw.py
+    title: gaussxw.py
+---
+
 # Week 4
 
 ## Integration and Differentation
@@ -10,10 +18,6 @@
 | R (09-24): [Numerical Derivatives](./4b_derivatives.ipynb)                             | Newman Ch. 5.8-5.10      | 
 :::
 
-
-`````{tip}
-Download the in-class exercises template [here](../in-class/4a_exercises.ipynb) and the module [gaussxw.py](../in-class/gaussxw.py)
-`````
 
 ## Reminders 
 Class is taught by Dr. Kevin Whitley this week. 
@@ -28,5 +32,8 @@ Resubmit only the problems you wish to revise.
 - [ ] Read Newman Ch. 6.1, 6.2 (by Tues.)
 - [ ] Read Newman Ch. 6.3, 6.4 (by Thurs.)
 
-
+`````{tip}
+You can grab a template for this week's in-class exercises using the download button at the top.  
+You will also need the module file [gaussxw.py](../in-class/gaussxw.py).
+`````
 

@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../in-class/w11_exercises.ipynb
+    title: In-class Exercises
+---
+
 # Week 11
 
 ## Monte Carlo Methods
@@ -12,11 +18,6 @@
 :::
 
 
-
-`````{tip}
-Download the in-class exercises template {download}`here <../in-class/11a_exercises.ipynb>`
-`````
-
 ## Reminders 
 [PS6](../psets/ps6.md) is due **this Wednesday Nov. 11th**  at 11:59PM on HuskyCT.
 
@@ -26,6 +27,8 @@ Please review your pitch feedback on HuskyCT.
 ### For [next week](./11_setup.md): Monte Carlo Methods
 - [ ] Read Newman Ch. 10.3-10.4 
 
-
+`````{tip}
+You can grab a template for this week's in-class exercises using the download button at the top.  
+`````
 
 

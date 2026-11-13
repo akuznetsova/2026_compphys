@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../in-class/w12_exercises.ipynb
+    title: In-class Exercises
+---
+
 # Week 12
 
 ## MC Methods: Markov Chain
@@ -12,10 +18,6 @@
 :::
 
 
-`````{tip}
-Download the in-class exercises template [here](../in-class/12a_exercises.ipynb)
-`````
-
 ## Reminders 
 Final Project Abstract is due **this Wednesday Nov. 18th**  at 11:59PM on HuskyCT.
 
@@ -28,4 +30,7 @@ Resubmit only the problems you wish to revise.
 - [ ] Enjoy your break!
 - [ ] Get ready to resume after break with [special topics](./14_setup.md)
 
+`````{tip}
+You can grab a template for this week's in-class exercises using the download button at the top.  
+`````
 

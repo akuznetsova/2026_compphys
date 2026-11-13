@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ../in-class/w3_exercises.ipynb
+    title: In-class Exercises
+---
+
 # Week 3
 
 ## Accuracy and Speed
@@ -11,10 +17,6 @@
 :::
 
 
-```{tip}
-Download the in-class exercises template [here](../in-class/3a_exercises.ipynb)
-```
-
 ## Reminders 
 [Problem Set 2](../psets/ps2.md) is due **this Wednesday September 16th.** by 11:59 PM. 
  
@@ -25,6 +27,8 @@ Friday September 25th.
 - [ ] Read Newman Ch. 6.1, 6.2 (by Tues.)
 - [ ] Read Newman Ch. 6.3, 6.4 (by Thurs.)
 
-
+`````{tip}
+You can grab a template for this week's in-class exercises using the downloads button at the top
+`````
 
 

@@ -1,3 +1,11 @@
+---
+downloads:
+  - file: ../in-class/w2_exercises.ipynb
+    title: In-class Exercises
+  - file: ../in-class/gendata.py
+    title: gendata.py
+---
+
 # Week 2
 
 ```{note} WSL
@@ -16,19 +24,19 @@ If you have a Windows laptop, please make sure you have set up the [Windows Subs
 :::
 
 
-
-`````{tip}
-Download the module [here](../in-class/gendata.py) and in-class exercises template [here](../in-class/2a_exercises.ipynb)
-`````
-
 ## Reminders 
 [Problem Set 1](../psets/ps1.md) is due **this Wednesday September 9th** by 11:59 PM. 
 
 [PS2](../psets/ps2.md) will be due next Wednesday September 16th.
 
 
-
 ### For [next week](./3_setup.md): Accuracy
 - [ ] Read [What every computer scientist should know about floating-point arithmetic](https://dl.acm.org/doi/10.1145/103162.103163) by D. Goldberg 
 - [ ] Read Newman Ch. 4.1-4.2 (by Tues.)
 - [ ] Read Newman Ch. 4.3 (by Thurs.)
+
+
+`````{tip}
+You can grab a template for this week's in-class exercises using the download button at the top.  
+You will also need the module file [gendata.py](../in-class/gendata.py).
+`````

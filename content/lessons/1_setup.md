@@ -16,12 +16,6 @@ downloads:
 | R (09-03): [Brief Python Tour](./1b_pythonintro.ipynb)         | Newman Ch. 2     | 
 :::
 
-
-`````{tip}
-You can grab a template for this week's in-class exercises [here](../in-class/w1_exercises.ipynb)
-(due Fri. Sept. 4th at 3:00 PM.)
-`````
-
 ## Reminders
 [Problem Set 1](../psets/ps1.md) will be due next Wednesday September 9th by 11:59 PM.
 
@@ -33,6 +27,9 @@ Please, make sure you've read through the [problem set guidelines](../4_psets.md
 - [ ] Read [Sect. 1.5: Making Computers Obey](./landau.pdf) from Landau et al. *Survey of Computational Physics* (by Thurs.)
 - [ ] If you have a windows laptop, see note @wsl for next week
 
-
+`````{tip}
+You can grab a template for this week's in-class exercises using the downloads button at the top
+(due Fri. Sept. 4th at 3:00 PM.)
+`````
 
 

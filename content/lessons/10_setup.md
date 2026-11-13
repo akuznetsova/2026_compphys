@@ -1,3 +1,11 @@
+---
+downloads:
+  - file: ../in-class/w10_exercises.ipynb
+    title: In-class Exercises
+  - file: ../in-class/banded.py
+    title: banded.py
+---
+
 # Week 10
 
 ## PDEs - Additional Methods
@@ -11,9 +19,6 @@
 | R (11-05): [PDEs - Crank-Nicolson](./10a_PDEs.ipynb)                | Newman Ch. 9.3.2, 9.3.3    | 
 :::
 
-`````{tip}
-Download the in-class exercises template [here](../in-class/10a_exercises.ipynb) and the module [banded.py](../in-class/banded.py)
-`````
 
 ## Reminders 
 The deadline to revise and resubmit problems from PS5 is due **this Friday November 6th** at 11:59 PM.   
@@ -27,5 +32,9 @@ Resubmit only the problems you wish to revise.
 
 
 
+`````{tip}
+You can grab a template for this week's in-class exercises using the download button at the top.  
+You will also need the module file [banded.py](../in-class/banded.py).
+`````
 
 

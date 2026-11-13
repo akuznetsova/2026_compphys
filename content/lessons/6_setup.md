@@ -1,5 +1,10 @@
-# Week 6
+---
+downloads:
+  - file: ../in-class/w6_exercises.ipynb
+    title: In-class Exercises
+---
 
+# Week 6
 
 ## Ordinary Differential Equations (ODEs)
 
@@ -13,19 +18,16 @@
 :::
 
 
-`````{tip}
-Download the in-class exercises template [here](../in-class/6a_exercises.ipynb)
-`````
-
 ## Reminders 
 [Problem Set 4](../psets/ps4.md) is due this **Wed. October 7th** at 11:59 PM on HuskyCT.
-
 
 
 ### [Next week](./7_setup.md): ODEs - Additional Methods and BVPs
 - [ ] Read Newman Ch. 8.5-8.6
 
-
+`````{tip}
+You can grab a template for this week's in-class exercises using the downloads button at the top.
+`````
 
 
 
