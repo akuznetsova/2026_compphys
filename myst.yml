@@ -94,7 +94,7 @@ project:
               hidden: False
             - file: content/lessons/5b_nonlineareqs.ipynb
               hidden: False
-            - file: content/in-class/5a_exercises.ipynb
+            - file: content/in-class/w5_exercises.ipynb
               hidden: True
             - file: content/lessons/5_qs.md
               hidden: True
@@ -162,7 +162,7 @@ project:
           hidden: False
           children:
             - file: content/lessons/12a_MCMC.ipynb
-              hidden: True
+              hidden: False
             - file: content/lessons/12b_MCMC.ipynb
               hidden: True
             - file: content/in-class/w12_exercises.ipynb

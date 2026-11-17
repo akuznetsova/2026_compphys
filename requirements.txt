@@ -2,3 +2,5 @@ jupyter-book>=2.0.0
 jupyter
 matplotlib>=3.10.7
 scipy
+emcee
+corner
