@@ -25,7 +25,7 @@ downloads:
 ## Reminders 
 Final Project Abstract is due **this Wednesday Nov. 18th**  at 11:59PM on HuskyCT.
 
-The deadline to revise and resubmit problems from PS6 is this **Friday November 20th** at 11:59 PM.   
+The deadline to revise and resubmit problems from PS6 is this ~~Friday November 20th~~ **Monday November 23rd** at 11:59 PM.   
 Resubmit only the problems you wish to revise.
 
 [PS7](../psets/ps7.md) will be due the week after break: Wed. Dec. 8th 
