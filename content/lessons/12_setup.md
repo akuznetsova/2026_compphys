@@ -18,7 +18,7 @@ downloads:
 | Class                                                          | Pre-Reading      |
 | ---                                                            | ---              |
 | T (11-17): [MCMC Simulation](./12a_MCMC.ipynb)                                    |Newman Ch. 10.3-10.4     | 
-| R (11-19): Bayesian Inference with MCMC                        |                         | 
+| R (11-19): [Bayesian Inference with MCMC](./12b_MCMC.ipynb)                        |                         | 
 :::
 
 

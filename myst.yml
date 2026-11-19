@@ -164,7 +164,7 @@ project:
             - file: content/lessons/12a_MCMC.ipynb
               hidden: False
             - file: content/lessons/12b_MCMC.ipynb
-              hidden: True
+              hidden: False
             - file: content/in-class/w12_exercises.ipynb
               hidden: True
             - file: content/lessons/12_qs.md
